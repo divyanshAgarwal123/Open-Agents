@@ -1,0 +1,159 @@
+{
+  "cases": [
+    {
+      "mode": "dev",
+      "width": 1280,
+      "theme": "light",
+      "joinedOriginalIds": true,
+      "safeOutput": true,
+      "readonly": true,
+      "styles": {
+        "padding": "16px",
+        "mainPadding": "240px"
+      }
+    },
+    {
+      "mode": "dev",
+      "width": 1280,
+      "theme": "dark",
+      "joinedOriginalIds": true,
+      "safeOutput": true,
+      "readonly": true,
+      "styles": {
+        "padding": "16px",
+        "mainPadding": "240px"
+      }
+    },
+    {
+      "mode": "dev",
+      "width": 390,
+      "theme": "light",
+      "joinedOriginalIds": true,
+      "safeOutput": true,
+      "readonly": true,
+      "styles": {
+        "padding": "16px",
+        "mainPadding": "0px"
+      }
+    },
+    {
+      "mode": "dev",
+      "width": 390,
+      "theme": "dark",
+      "joinedOriginalIds": true,
+      "safeOutput": true,
+      "readonly": true,
+      "styles": {
+        "padding": "16px",
+        "mainPadding": "0px"
+      }
+    },
+    {
+      "mode": "dev",
+      "actualManualSubmission": true,
+      "actualScheduledService": true,
+      "sharedAnalyticsRunIds": true,
+      "nativeCrossTabStorageRefresh": true,
+      "blockedStoreRetry": true
+    },
+    {
+      "mode": "dev",
+      "route": "/settings",
+      "width": 1280,
+      "sharedLayoutPadding": "240px"
+    },
+    {
+      "mode": "dev",
+      "route": "/settings",
+      "width": 390,
+      "sharedLayoutPadding": "0px"
+    },
+    {
+      "mode": "dev",
+      "route": "/agents",
+      "width": 1280,
+      "sharedLayoutPadding": "240px"
+    },
+    {
+      "mode": "dev",
+      "route": "/agents",
+      "width": 390,
+      "sharedLayoutPadding": "0px"
+    },
+    {
+      "mode": "production",
+      "width": 1280,
+      "theme": "light",
+      "joinedOriginalIds": true,
+      "safeOutput": true,
+      "readonly": true,
+      "styles": {
+        "padding": "16px",
+        "mainPadding": "240px"
+      }
+    },
+    {
+      "mode": "production",
+      "width": 1280,
+      "theme": "dark",
+      "joinedOriginalIds": true,
+      "safeOutput": true,
+      "readonly": true,
+      "styles": {
+        "padding": "16px",
+        "mainPadding": "240px"
+      }
+    },
+    {
+      "mode": "production",
+      "width": 390,
+      "theme": "light",
+      "joinedOriginalIds": true,
+      "safeOutput": true,
+      "readonly": true,
+      "styles": {
+        "padding": "16px",
+        "mainPadding": "0px"
+      }
+    },
+    {
+      "mode": "production",
+      "width": 390,
+      "theme": "dark",
+      "joinedOriginalIds": true,
+      "safeOutput": true,
+      "readonly": true,
+      "styles": {
+        "padding": "16px",
+        "mainPadding": "0px"
+      }
+    },
+    {
+      "mode": "production",
+      "route": "/settings",
+      "width": 1280,
+      "sharedLayoutPadding": "240px"
+    },
+    {
+      "mode": "production",
+      "route": "/settings",
+      "width": 390,
+      "sharedLayoutPadding": "0px"
+    },
+    {
+      "mode": "production",
+      "route": "/agents",
+      "width": 1280,
+      "sharedLayoutPadding": "240px"
+    },
+    {
+      "mode": "production",
+      "route": "/agents",
+      "width": 390,
+      "sharedLayoutPadding": "0px"
+    }
+  ],
+  "errors": [],
+  "provider": "Synthetic HTTP responses; no live model or OS notifications",
+  "pass": true
+}

@@ -1,0 +1,107 @@
+{
+  "sourceRepository": "DivyashreeR008/Open-Agents",
+  "sourceCommit": "443d2359249c0bf452c9d4bdc45a761ff516e50e",
+  "sourceParent": "cb3b823331b7cf4cade6dc4c63d66ae763a7d2b0",
+  "issue": "https://github.com/DivyashreeR008/Open-Agents/issues/299",
+  "sourceFiles": [
+    {
+      "path": "CHANGELOG.md",
+      "gitBlob": "ea23e3ceba14d323d3f69cc5323dee44c7584f65"
+    },
+    {
+      "path": "src/components/AgentActivity.jsx",
+      "gitBlob": "2e9b9c78c5444100fe4c8dec90b00f7dee422b54"
+    },
+    {
+      "path": "src/components/AgentActivity.test.jsx",
+      "gitBlob": "f8004856fe0c75d5c0730ce3dffe927bdd14aab9"
+    },
+    {
+      "path": "src/components/AgentRunner.jsx",
+      "gitBlob": "106b64671858e835b2b86f697f076755bc37b75a"
+    },
+    {
+      "path": "src/index.css",
+      "gitBlob": "feb82733c149b9cb319f264274369370935eda24"
+    },
+    {
+      "path": "src/lib/agentActivity.js",
+      "gitBlob": "e60d7a98639303fa3457906a172dddc93c3485b3"
+    },
+    {
+      "path": "src/lib/agentActivity.test.js",
+      "gitBlob": "65664ef48ec498986fbeac90126bd47cc20e5fd7"
+    },
+    {
+      "path": "src/lib/automationsService.js",
+      "gitBlob": "048c215478b731b0df9d81b16f8015cd8c7c3dac"
+    },
+    {
+      "path": "src/lib/automationsService.runPayload.test.js",
+      "gitBlob": "28e103b3e6bf0319fa91336974fc2a9fbab14493"
+    },
+    {
+      "path": "src/lib/useHistory.js",
+      "gitBlob": "913c691a4ee2b24635fadccbbb676a0b5b5b5a63"
+    },
+    {
+      "path": "src/lib/useScheduler.js",
+      "gitBlob": "10acbbfa4490aaee5f8cf9c0a93d509a6e162bca"
+    },
+    {
+      "path": "src/lib/useScheduler.test.jsx",
+      "gitBlob": "3ed1acf428fd18f6c52007cad1658445c54620e5"
+    }
+  ],
+  "validation": {
+    "runtime": "Node22.23.5",
+    "focusedTests": 49,
+    "fullCoverageSuite": {
+      "passed": 2779,
+      "failed": 0,
+      "files": 965,
+      "statements": 98.17,
+      "branches": 95.74,
+      "functions": 99.05,
+      "lines": 98.78
+    },
+    "checks": [
+      "lint0errors90existingwarnings",
+      "format",
+      "security",
+      "agentindex",
+      "productionbuild",
+      "bundlebudget",
+      "canonicalsmoke"
+    ],
+    "browser": "RealChrome17cases:dev/prodjoinedview,2widths2themes,nativeManualAgentRunner,scheduledservice,sharedanalyticsIDs,nativecrossTabstorage,blockedstoreRetry;sharedAgent/Catalog/Settingsspacing",
+    "limits": [
+      "Provider HTTP responses are synthetic; no live-provider acceptance or real OS notifications.",
+      "Retained source histories only; older missing or ambiguous links stay excluded and triggers may be unknown.",
+      "Base CSS reset moved into base layer to permit utility spacing; no palette or theme redesign."
+    ],
+    "canonicalVerify": "npm run verify on exact committed source443d235:PASS"
+  },
+  "artifacts": [
+    {
+      "path": "1280-dark.png",
+      "sha256": "9d355a1f0a9b1cdff8b2ea2f557958885a6fee263208ce61c6ba1a43bafe6613"
+    },
+    {
+      "path": "390-dark.png",
+      "sha256": "b15e6c88506af559358854c0bb7bb4f99fb0698f9d4b1f761fa7f2b300e5593d"
+    },
+    {
+      "path": "390-light.png",
+      "sha256": "7843339ab12e9af9fdd7763de27190bf16daa0367b62fc73b85ef402671b666c"
+    },
+    {
+      "path": "1280-light.png",
+      "sha256": "d66bfdc9660d43414a56f24ae58c929e0dd1b68156a8764fee7c292a7529ab3f"
+    },
+    {
+      "path": "browser-report.json",
+      "sha256": "14ac891ff830149c39c719098cf3bbf6caaa682200e7d5d4425340c66ddc057b"
+    }
+  ]
+}
