@@ -1,0 +1,78 @@
+{
+  "sourceCommit": "c9f4fd91f95dc08b29befe0ae313bb668e0c4dbb",
+  "sourceParents": ["cb3b823331b7cf4cade6dc4c63d66ae763a7d2b0"],
+  "sourceBlobs": {
+    "CHANGELOG.md": "e014bf623b18c68f376ebe534b48506b533ae73c",
+    "src/lib/analyticsDerivations.test.js": "cf4428a74465983f296162233fb0639af70b7957",
+    "src/lib/useAnalytics.batch4-malformedEntries.test.js": "9ece4bef06c1df30b5eaec81aec61efe5f814af8",
+    "src/lib/useAnalytics.importCoverage.test.js": "058589b016e7b7a8a34cf359a40c4dc8ea9657f9",
+    "src/lib/useAnalytics.js": "12c16bec96f919c3580d2bc3e6bbec5337225203",
+    "src/lib/useAnalytics.unknownRange.test.js": "a4ddae37969af483a6cddcb782dc09c9480b2bef",
+    "src/pages/AnalyticsPage.edge.test.jsx": "65c4b5ab1d248ddc9042cf4e181e6b58260195ce",
+    "src/pages/AnalyticsPage.importCoverage.test.jsx": "3ef953773fc3c173d629918474dc4a8e96ba37ab",
+    "src/pages/AnalyticsPage.jsx": "e0fbd6f17f7038368611fbad195eeaa430babc8e",
+    "src/pages/AnalyticsPage.metrics.test.jsx": "56b934e68c81f1ffa54ea84ada2f700935f495e9"
+  },
+  "unchangedCSSBlob": "ad43f031e44bb880b8cd619c0829d6cc08d9836b",
+  "artifactSha256": {
+    ".nsoc-evidence/analytics-import-285/production-390-dark.png": "9cdf9845788c59882f338d775a7de9a339653365bbf326485a6aa703db282b0a",
+    ".nsoc-evidence/analytics-import-285/report.json": "fafd482ff9f2cf1ea32b53ea848d04bd8162d55d4411dae098fb6d1085608b28",
+    ".nsoc-evidence/analytics-import-285/parent-desktop-light.png": "6d990a1a7411fdeefbe4860859937316c69e96a9fb4e3586fa8f02d9582372da",
+    ".nsoc-evidence/analytics-import-285/production-1280-dark.png": "ec0f72b51bfb73d3c1695e9cdc7d44c7828dfad23c28765cc7e4189ecc19d67b",
+    ".nsoc-evidence/analytics-import-285/production-390-light.png": "981c8f94d746dd045c752f06fe29e49d7f3f54f17ec509636deb44ef8be87da2",
+    ".nsoc-evidence/analytics-import-285/production-1280-light.png": "89f16b414d92a3d6d5ae6fc2484a32c9da9cef7d04938d7fe2ce1b0bb5fbabee",
+    ".nsoc-evidence/analytics-import-285/coverage-totals.json": "fb2a6e1f71d211d89b979b43caafe2430db79d5019820a58311accf53b7b6cde"
+  },
+  "validation": {
+    "fullTests": 2769,
+    "testFiles": 965,
+    "newRegressionTests": 7,
+    "verify": "passed",
+    "coverageTotals": {
+      "lines": {
+        "total": 6344,
+        "covered": 6266,
+        "skipped": 0,
+        "pct": 98.77
+      },
+      "statements": {
+        "total": 7167,
+        "covered": 7035,
+        "skipped": 0,
+        "pct": 98.15
+      },
+      "functions": {
+        "total": 1900,
+        "covered": 1882,
+        "skipped": 0,
+        "pct": 99.05
+      },
+      "branches": {
+        "total": 5789,
+        "covered": 5543,
+        "skipped": 0,
+        "pct": 95.75
+      },
+      "branchesTrue": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "lint": "0 errors / 90 existing warnings",
+    "format": "passed",
+    "security": "passed",
+    "gitleaks": "staged diff: no leaks",
+    "smoke": "passed",
+    "browserFunctionalCases": 10,
+    "providerRequests": 0,
+    "a11y": "shared jest-axe helper passed"
+  },
+  "readiness": "DRAFT_BLOCKED_BY_EXISTING_LAYOUT",
+  "limitations": [
+    "Existing desktop sidebar/header occlusion reproduced on unchanged parent and feature head. Await actual PR2660 merge, normal base integration and development/production visual acceptance.",
+    "Unmarked existing analytics origins remain unknown. Already-seeded data is not rewritten or imported twice.",
+    "No merge or leaderboard credit is claimed."
+  ]
+}

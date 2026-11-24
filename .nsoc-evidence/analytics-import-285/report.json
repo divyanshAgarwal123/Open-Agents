@@ -1,0 +1,109 @@
+{
+  "cases": [
+    {
+      "mode": "dev",
+      "width": 1280,
+      "theme": "light",
+      "mixedCoverage": true,
+      "layout": {
+        "mainPadding": "0px",
+        "overflow": false
+      }
+    },
+    {
+      "mode": "dev",
+      "width": 1280,
+      "theme": "dark",
+      "mixedCoverage": true,
+      "layout": {
+        "mainPadding": "0px",
+        "overflow": false
+      }
+    },
+    {
+      "mode": "dev",
+      "width": 390,
+      "theme": "light",
+      "mixedCoverage": true,
+      "layout": {
+        "mainPadding": "0px",
+        "overflow": false
+      }
+    },
+    {
+      "mode": "dev",
+      "width": 390,
+      "theme": "dark",
+      "mixedCoverage": true,
+      "layout": {
+        "mainPadding": "0px",
+        "overflow": false
+      }
+    },
+    {
+      "mode": "dev",
+      "reloadDeduplication": true,
+      "rangeCoverage": true,
+      "keyboardExport": true,
+      "exportOrigins": true,
+      "sparseFirstVisit": true
+    },
+    {
+      "mode": "production",
+      "width": 1280,
+      "theme": "light",
+      "mixedCoverage": true,
+      "layout": {
+        "mainPadding": "0px",
+        "overflow": false
+      }
+    },
+    {
+      "mode": "production",
+      "width": 1280,
+      "theme": "dark",
+      "mixedCoverage": true,
+      "layout": {
+        "mainPadding": "0px",
+        "overflow": false
+      }
+    },
+    {
+      "mode": "production",
+      "width": 390,
+      "theme": "light",
+      "mixedCoverage": true,
+      "layout": {
+        "mainPadding": "0px",
+        "overflow": false
+      }
+    },
+    {
+      "mode": "production",
+      "width": 390,
+      "theme": "dark",
+      "mixedCoverage": true,
+      "layout": {
+        "mainPadding": "0px",
+        "overflow": false
+      }
+    },
+    {
+      "mode": "production",
+      "reloadDeduplication": true,
+      "rangeCoverage": true,
+      "keyboardExport": true,
+      "exportOrigins": true,
+      "sparseFirstVisit": true
+    }
+  ],
+  "errors": [],
+  "providerRequests": [],
+  "visualAcceptance": false,
+  "blocker": "Existing desktop sidebar overlap; requires #2660 integration and visual recheck.",
+  "parentControl": {
+    "source": "cb3b823331b7cf4cade6dc4c63d66ae763a7d2b0",
+    "mainPadding": "0px"
+  },
+  "functionalPass": true
+}
