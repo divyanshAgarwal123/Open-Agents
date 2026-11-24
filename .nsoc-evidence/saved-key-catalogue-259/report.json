@@ -1,0 +1,204 @@
+{
+  "cases": [
+    {
+      "mode": "dev",
+      "width": 1280,
+      "theme": "light",
+      "view": "index",
+      "visibleMissingKeyContext": true,
+      "anyProviderSelectionHint": true,
+      "noSecretInDOMorURL": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "dev",
+      "width": 1280,
+      "theme": "light",
+      "view": "grid",
+      "visibleMissingKeyContext": true,
+      "anyProviderSelectionHint": true,
+      "noSecretInDOMorURL": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "dev",
+      "width": 1280,
+      "theme": "dark",
+      "view": "index",
+      "visibleMissingKeyContext": true,
+      "anyProviderSelectionHint": true,
+      "noSecretInDOMorURL": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "dev",
+      "width": 1280,
+      "theme": "dark",
+      "view": "grid",
+      "visibleMissingKeyContext": true,
+      "anyProviderSelectionHint": true,
+      "noSecretInDOMorURL": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "dev",
+      "width": 390,
+      "theme": "light",
+      "view": "index",
+      "visibleMissingKeyContext": true,
+      "anyProviderSelectionHint": true,
+      "noSecretInDOMorURL": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "dev",
+      "width": 390,
+      "theme": "light",
+      "view": "grid",
+      "visibleMissingKeyContext": true,
+      "anyProviderSelectionHint": true,
+      "noSecretInDOMorURL": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "dev",
+      "width": 390,
+      "theme": "dark",
+      "view": "index",
+      "visibleMissingKeyContext": true,
+      "anyProviderSelectionHint": true,
+      "noSecretInDOMorURL": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "dev",
+      "width": 390,
+      "theme": "dark",
+      "view": "grid",
+      "visibleMissingKeyContext": true,
+      "anyProviderSelectionHint": true,
+      "noSecretInDOMorURL": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "dev",
+      "realCatalogue": true,
+      "globalAndRunnerStores": true,
+      "sameTabPolling": true,
+      "expiry": true,
+      "removal": true,
+      "noKeysRecovery": true,
+      "URLScopesAndReload": true,
+      "keyboardFilter": true,
+      "filterTarget44": true,
+      "paginationStableWithoutFilter": true
+    },
+    {
+      "mode": "production",
+      "width": 1280,
+      "theme": "light",
+      "view": "index",
+      "visibleMissingKeyContext": true,
+      "anyProviderSelectionHint": true,
+      "noSecretInDOMorURL": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "production",
+      "width": 1280,
+      "theme": "light",
+      "view": "grid",
+      "visibleMissingKeyContext": true,
+      "anyProviderSelectionHint": true,
+      "noSecretInDOMorURL": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "production",
+      "width": 1280,
+      "theme": "dark",
+      "view": "index",
+      "visibleMissingKeyContext": true,
+      "anyProviderSelectionHint": true,
+      "noSecretInDOMorURL": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "production",
+      "width": 1280,
+      "theme": "dark",
+      "view": "grid",
+      "visibleMissingKeyContext": true,
+      "anyProviderSelectionHint": true,
+      "noSecretInDOMorURL": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "production",
+      "width": 390,
+      "theme": "light",
+      "view": "index",
+      "visibleMissingKeyContext": true,
+      "anyProviderSelectionHint": true,
+      "noSecretInDOMorURL": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "production",
+      "width": 390,
+      "theme": "light",
+      "view": "grid",
+      "visibleMissingKeyContext": true,
+      "anyProviderSelectionHint": true,
+      "noSecretInDOMorURL": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "production",
+      "width": 390,
+      "theme": "dark",
+      "view": "index",
+      "visibleMissingKeyContext": true,
+      "anyProviderSelectionHint": true,
+      "noSecretInDOMorURL": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "production",
+      "width": 390,
+      "theme": "dark",
+      "view": "grid",
+      "visibleMissingKeyContext": true,
+      "anyProviderSelectionHint": true,
+      "noSecretInDOMorURL": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "production",
+      "realCatalogue": true,
+      "globalAndRunnerStores": true,
+      "sameTabPolling": true,
+      "expiry": true,
+      "removal": true,
+      "noKeysRecovery": true,
+      "URLScopesAndReload": true,
+      "keyboardFilter": true,
+      "filterTarget44": true,
+      "paginationStableWithoutFilter": true
+    }
+  ],
+  "errors": [],
+  "providerRequests": [],
+  "pass": true,
+  "functionalAssertionsPassed": true,
+  "fullVisualAcceptance": false,
+  "readyForReview": false,
+  "visualReviewBlocker": {
+    "description": "Current main has zero desktop main padding; fixed sidebar obscures catalogue content. Existing CSS fix is in unmerged PR2660.",
+    "dependency": "https://github.com/DivyashreeR008/Open-Agents/pull/2660",
+    "nextAction": "After actual main merge, integrate normally and repeat dev/production visual acceptance; keep259draft until then."
+  },
+  "harnessCorrections": [
+    "Initial counts sampled inert content behind the existing intro overlay. Final run waits for the accessible catalogue before assertions."
+  ]
+}

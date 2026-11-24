@@ -1,0 +1,29 @@
+{
+  "rows": [
+    {
+      "folder": "openagents259-parent",
+      "mainPaddingLeft": "0px",
+      "nameRect": {
+        "x": 66,
+        "y": 210.265625,
+        "width": 240,
+        "height": 20.25
+      },
+      "titleOccluded": true,
+      "coveringElement": "<span class=\"min-w-0 flex-1 truncate\">Marketplace</span>"
+    },
+    {
+      "folder": "openagents259",
+      "mainPaddingLeft": "0px",
+      "nameRect": {
+        "x": 66,
+        "y": 259.890625,
+        "width": 240,
+        "height": 35.25
+      },
+      "titleOccluded": true,
+      "coveringElement": "<span class=\"min-w-0 flex-1 truncate\">All agents</span>"
+    }
+  ],
+  "baselineDefectReproduced": true
+}

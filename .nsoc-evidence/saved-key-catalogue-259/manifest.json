@@ -1,0 +1,76 @@
+{
+  "sourceCommit": "a9699e638fe76b0f7aecd2807726390a53e32ba6",
+  "sourceParents": ["cb3b823331b7cf4cade6dc4c63d66ae763a7d2b0"],
+  "sourceBlobs": {
+    "CHANGELOG.md": "38048b4956abceeda5ea7ece12372567fe0aba76",
+    "SECURITY.md": "a5b6f35d0c65d8db82f1608afc597a55a9503bf9",
+    "src/components/AgentCard.jsx": "0839b1fd68ef7575878c2db2e1942c6f4579b2c8",
+    "src/lib/useApiKey.js": "14fa297cd9cbec811f861865be642b4c80fb7456",
+    "src/lib/useSavedProviders.test.jsx": "16245db99025cad7af134567c0ae41567a86dc39",
+    "src/pages/HomePage.jsx": "ef7ee1ecb68d497a18659c796223af006b421778",
+    "src/pages/HomePage.savedKeys.test.jsx": "d8103aa5e627df137023928c4c0aba0cf80e52b9"
+  },
+  "unchangedIndexCSSBlob": "ad43f031e44bb880b8cd619c0829d6cc08d9836b",
+  "artifactSha256": {
+    ".nsoc-evidence/saved-key-catalogue-259/report.json": "5f83c9dac88f54526581233eb458462f1524d26931e171d805f4f2af32a7079b",
+    ".nsoc-evidence/saved-key-catalogue-259/production-1280-dark-grid.png": "33239adec9d0654861fbc316f38397033fcab5cd0ef5dcd68619d49e06cac834",
+    ".nsoc-evidence/saved-key-catalogue-259/production-390-dark-index.png": "ed939052beba1c60ed41d742cf6de392f345ae3ed02845e53175f1c5f3599c4c",
+    ".nsoc-evidence/saved-key-catalogue-259/layout-control.json": "808ae14ae0e65bb47cdff7c0d2398cb081f25d1cac8f0088821e47d157341667",
+    ".nsoc-evidence/saved-key-catalogue-259/production-390-light-grid.png": "f288080d28ae120700497bf0e9f23713beaa2a5662292fd77288bfed058fffd4",
+    ".nsoc-evidence/saved-key-catalogue-259/production-1280-light-index.png": "c42eddd8cfe5f2e5e3a59a0b3423d282c2885a453c5430deda1af0ea16057259",
+    ".nsoc-evidence/saved-key-catalogue-259/coverage-totals.json": "3d1ad8ea7fc2dda765f683ef086b13550f22d64c753d8c58248a423d328a1aa2"
+  },
+  "validation": {
+    "focusedTests": 11,
+    "fullTests": 2773,
+    "verify": "passed",
+    "coverage": "passed with4workers and unchanged thresholds",
+    "coverageTotals": {
+      "lines": {
+        "total": 6354,
+        "covered": 6276,
+        "skipped": 0,
+        "pct": 98.77
+      },
+      "statements": {
+        "total": 7175,
+        "covered": 7043,
+        "skipped": 0,
+        "pct": 98.16
+      },
+      "functions": {
+        "total": 1901,
+        "covered": 1883,
+        "skipped": 0,
+        "pct": 99.05
+      },
+      "branches": {
+        "total": 5802,
+        "covered": 5555,
+        "skipped": 0,
+        "pct": 95.74
+      },
+      "branchesTrue": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "lint": "0errors90existingwarnings",
+    "format": "passed",
+    "security": "passed",
+    "smoke": "passed",
+    "gitleaks": "passed",
+    "browserFunctionalCases": 18,
+    "providerRequests": 0,
+    "automatedAxe": "shared jest-axe helper passed in catalogue recovery test"
+  },
+  "readiness": "GENUINE_DRAFT_NOT_READY_QUOTA",
+  "limitations": [
+    "Manual visual acceptance failed on desktop: current main sidebar covers catalogue because global reset defeats utility padding. Same failure reproduced on exact parentcb3b823 and featurehead; await actual PR2660 merge, normal integration and browser revalidation.",
+    "18browser assertions validate filtering/state/keyboard/expiry and rendered content; they are not full visual acceptance.",
+    "Screenshot-provided10PRraised cap is conservatively enforced; original program announcement/context still unverified.",
+    "Saved-key availability does not validate provider credentials or quota."
+  ]
+}
