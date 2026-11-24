@@ -1,0 +1,43 @@
+{
+  "sourceCommit": "fe293c6fc4dfb529a53e3ee3795171feb4f8d8c1",
+  "sourceParents": ["cb3b823331b7cf4cade6dc4c63d66ae763a7d2b0"],
+  "sourceBlobs": {
+    "CHANGELOG.md": "8545ce46c5b9ad7f9d05cc80644ea15618797e16",
+    "SECURITY.md": "08ba87b012fa071e3912873d4f242851737b74ce",
+    "src/components/OutputMarkdown.css": "82eda5e700138adc32650a9ab3fca24d1022537c",
+    "src/components/OutputMarkdown.jsx": "85d917c1b9198ad5d285698951a83a45668fb510",
+    "src/components/OutputMarkdown.test.jsx": "985037150f524eb669e2bf974bd8fe8b2fcfa3d2",
+    "src/components/OutputRenderer.jsx": "d0c29a6d580a81647f49467808b96431a8b15fe2",
+    "src/pages/BattleModeArena.jsx": "6498a1673aee4447490804cc1bb6c4bfabba0560",
+    "src/pages/BattleModeArena.winner.test.jsx": "6ef69cf3f83a8db95d3b994fe52647d827894a7e",
+    "src/pages/BattleModeWinner.content.test.jsx": "41daffc1b7fb994c600d3f44d3160326be441134",
+    "src/pages/BattleModeWinner.jsx": "649f300488d0f1ad592c84954424f59664b9af99"
+  },
+  "artifactSha256": {
+    ".nsoc-evidence/output-image-consent-302/production-390-dark.png": "3a249bf07d26b370a3c81f82ec318bbaa628c453cd1e012f585a6e2da86450f9",
+    ".nsoc-evidence/output-image-consent-302/coverage-summary.json": "b62c289295a838799b8ecdc745cf3868e0b6e20e5aa3f4bc800296d5584f730f",
+    ".nsoc-evidence/output-image-consent-302/dev-390-light.png": "3ebde587a3c46af8e3c7d4b7cc098137194cc7be494d6f0652635e99002cc6e5",
+    ".nsoc-evidence/output-image-consent-302/report.json": "477194bd3edf9a1bdcea47a5fc21109f4f08a6effb897a0451a1e65660caeb15",
+    ".nsoc-evidence/output-image-consent-302/dev-1280-dark.png": "447a4f955fe9fe6face064ff8689deae45f99326a61eb1906b2f20ce32f38e4e",
+    ".nsoc-evidence/output-image-consent-302/dev-390-dark.png": "6222bdbf95b1cd69d21132d848386eb9156903fdfd2c72922ce059934d1b2e1a",
+    ".nsoc-evidence/output-image-consent-302/production-1280-dark.png": "4b9c847f296a83e6a936e02fd637bfe5e304dc00be94e7721fda1992b83615fd",
+    ".nsoc-evidence/output-image-consent-302/dev-1280-light.png": "f9d949e1f751e03f9d5b9a27c100d2967236a1d3b7bb0490dc0c6caa968c63e1",
+    ".nsoc-evidence/output-image-consent-302/production-390-light.png": "496ad772b8cbf3270f4fd1be159260bc2dc907272f020adee03c6d9bf9a7a08d",
+    ".nsoc-evidence/output-image-consent-302/production-1280-light.png": "0308c84e0698e6cd6b3f8f90c9a60a9e0a396a78c42fff73550df219585faa09"
+  },
+  "validation": {
+    "verify": "passed:2777 tests before final arena regression; final coverage has2778",
+    "coverage": "all2778 tests passed with maxWorkers4; thresholds unchanged",
+    "lint": "zero errors;90 existing warnings",
+    "format": "passed",
+    "security": "passed",
+    "smoke": "passed",
+    "browser": "14 real Chrome scenarios across development/production, saved drawer and battle routes",
+    "a11y": "shared jest-axe helper: blocked/loaded and linked-image cases passed"
+  },
+  "limitations": [
+    "Initial default-parallel coverage attempt had2 test timeouts and5 worker-start errors. Full unchanged-threshold rerun with4 workers passed.",
+    "No live external tracking endpoint or model provider was contacted; browser image server and model responses were controlled fixtures.",
+    "Hosted CI, maintainer review and deployment authorization remain independent gates."
+  ]
+}

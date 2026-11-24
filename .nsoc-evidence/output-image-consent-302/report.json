@@ -1,0 +1,150 @@
+{
+  "cases": [
+    {
+      "mode": "dev",
+      "width": 1280,
+      "theme": "light",
+      "noRequestsBeforeConsent": true,
+      "visibleDestination": true,
+      "minTarget44": true
+    },
+    {
+      "mode": "dev",
+      "width": 1280,
+      "theme": "dark",
+      "noRequestsBeforeConsent": true,
+      "visibleDestination": true,
+      "minTarget44": true
+    },
+    {
+      "mode": "dev",
+      "width": 390,
+      "theme": "light",
+      "noRequestsBeforeConsent": true,
+      "visibleDestination": true,
+      "minTarget44": true
+    },
+    {
+      "mode": "dev",
+      "width": 390,
+      "theme": "dark",
+      "noRequestsBeforeConsent": true,
+      "visibleDestination": true,
+      "minTarget44": true
+    },
+    {
+      "mode": "dev",
+      "actualSavedRunDrawer": true,
+      "explicitKeyboardRequest": true,
+      "noReferer": true,
+      "reopenAndReloadNoRequests": true,
+      "noPersistentConsent": true,
+      "explicitFailedRetry": true
+    },
+    {
+      "mode": "dev",
+      "route": "/battle/arena",
+      "blockedUntilExplicitClick": true
+    },
+    {
+      "mode": "dev",
+      "route": "/battle/winner",
+      "blockedUntilExplicitClick": true
+    },
+    {
+      "mode": "production",
+      "width": 1280,
+      "theme": "light",
+      "noRequestsBeforeConsent": true,
+      "visibleDestination": true,
+      "minTarget44": true
+    },
+    {
+      "mode": "production",
+      "width": 1280,
+      "theme": "dark",
+      "noRequestsBeforeConsent": true,
+      "visibleDestination": true,
+      "minTarget44": true
+    },
+    {
+      "mode": "production",
+      "width": 390,
+      "theme": "light",
+      "noRequestsBeforeConsent": true,
+      "visibleDestination": true,
+      "minTarget44": true
+    },
+    {
+      "mode": "production",
+      "width": 390,
+      "theme": "dark",
+      "noRequestsBeforeConsent": true,
+      "visibleDestination": true,
+      "minTarget44": true
+    },
+    {
+      "mode": "production",
+      "actualSavedRunDrawer": true,
+      "explicitKeyboardRequest": true,
+      "noReferer": true,
+      "reopenAndReloadNoRequests": true,
+      "noPersistentConsent": true,
+      "explicitFailedRetry": true
+    },
+    {
+      "mode": "production",
+      "route": "/battle/arena",
+      "blockedUntilExplicitClick": true
+    },
+    {
+      "mode": "production",
+      "route": "/battle/winner",
+      "blockedUntilExplicitClick": true
+    }
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "url": "/image.png?reader=synthetic",
+      "referer": null
+    },
+    {
+      "url": "/fail.png",
+      "referer": null
+    },
+    {
+      "url": "/fail.png",
+      "referer": null
+    },
+    {
+      "url": "/image.png?reader=synthetic",
+      "referer": null
+    },
+    {
+      "url": "/image.png?reader=synthetic",
+      "referer": null
+    },
+    {
+      "url": "/image.png?reader=synthetic",
+      "referer": null
+    },
+    {
+      "url": "/fail.png",
+      "referer": null
+    },
+    {
+      "url": "/fail.png",
+      "referer": null
+    },
+    {
+      "url": "/image.png?reader=synthetic",
+      "referer": null
+    },
+    {
+      "url": "/image.png?reader=synthetic",
+      "referer": null
+    }
+  ],
+  "pass": true
+}
