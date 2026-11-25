@@ -1,0 +1,2924 @@
+{
+  "advisoryOnly": true,
+  "classification": "Lexical title overlap, not semantic duplicates or workflow stages",
+  "agentsChecked": 872,
+  "pairs": [
+    {
+      "left": "ab-test-analyzer",
+      "right": "ab-test-planner",
+      "name": "A/B Test Planner"
+    },
+    {
+      "left": "accessibility-audit-checklist",
+      "right": "accessibility-audit-generator",
+      "name": "Accessibility Audit Generator"
+    },
+    {
+      "left": "account-plan-builder",
+      "right": "quota-plan-builder",
+      "name": "Quota Plan Builder"
+    },
+    {
+      "left": "ai-guardrail-policy-writer",
+      "right": "ai-usage-policy-writer",
+      "name": "AI Usage Policy Writer"
+    },
+    {
+      "left": "ai-guardrail-policy-writer",
+      "right": "password-policy-writer",
+      "name": "Password Policy Writer"
+    },
+    {
+      "left": "ai-model-supply-chain-reviewer",
+      "right": "supply-chain-risk-reviewer",
+      "name": "Supply Chain Risk Reviewer"
+    },
+    {
+      "left": "ai-project-architecture-agent",
+      "right": "project-architecture-planner",
+      "name": "Project Architecture Planner"
+    },
+    {
+      "left": "ai-study-planner",
+      "right": "causal-inference-study-planner",
+      "name": "Causal Inference Study Planner"
+    },
+    {
+      "left": "ai-usage-policy-writer",
+      "right": "password-policy-writer",
+      "name": "Password Policy Writer"
+    },
+    {
+      "left": "api-changelog-writer",
+      "right": "product-changelog-writer",
+      "name": "Product Changelog Writer"
+    },
+    {
+      "left": "api-doc-generator",
+      "right": "env-doc-generator",
+      "name": "Env Doc Generator"
+    },
+    {
+      "left": "api-error-message-writer",
+      "right": "error-message-writer",
+      "name": "Error Message Writer"
+    },
+    {
+      "left": "api-pagination-designer",
+      "right": "component-api-designer",
+      "name": "Component API Designer"
+    },
+    {
+      "left": "apology-message-writer",
+      "right": "error-message-writer",
+      "name": "Error Message Writer"
+    },
+    {
+      "left": "async-update-writer",
+      "right": "investor-update-writer",
+      "name": "Investor Update Writer"
+    },
+    {
+      "left": "beta-program-designer",
+      "right": "loyalty-program-designer",
+      "name": "Loyalty Program Designer"
+    },
+    {
+      "left": "beta-program-designer",
+      "right": "referral-program-designer",
+      "name": "Referral Program Designer"
+    },
+    {
+      "left": "board-deck-outline-builder",
+      "right": "pitch-deck-outline-builder",
+      "name": "Pitch Deck Outliner"
+    },
+    {
+      "left": "book-blurb-writer",
+      "right": "book-proposal-writer",
+      "name": "Book Proposal Writer"
+    },
+    {
+      "left": "book-proposal-writer",
+      "right": "dao-proposal-writer",
+      "name": "DAO Proposal Writer"
+    },
+    {
+      "left": "book-proposal-writer",
+      "right": "grant-proposal-writer",
+      "name": "Grant Proposal Writer"
+    },
+    {
+      "left": "book-proposal-writer",
+      "right": "partnership-proposal-writer",
+      "name": "Partnership Proposal Writer"
+    },
+    {
+      "left": "brand-architecture-planner",
+      "right": "project-architecture-planner",
+      "name": "Project Architecture Planner"
+    },
+    {
+      "left": "car-buy-vs-lease-analyzer",
+      "right": "rent-vs-buy-analyzer",
+      "name": "Rent vs Buy Analyzer"
+    },
+    {
+      "left": "cheatsheet-generator",
+      "right": "mindmap-generator",
+      "name": "Crammo: Mindmap Generator"
+    },
+    {
+      "left": "cheatsheet-generator",
+      "right": "mnemonic-generator",
+      "name": "Crammo: Mnemonic Generator"
+    },
+    {
+      "left": "ci-cd-pipeline-reviewer",
+      "right": "cicd-pipeline-generator",
+      "name": "CI/CD Pipeline Generator"
+    },
+    {
+      "left": "classroom-management-plan-writer",
+      "right": "research-data-management-plan-writer",
+      "name": "Research Data Management Plan Writer"
+    },
+    {
+      "left": "cli-design-guide",
+      "right": "sdk-design-guide",
+      "name": "SDK Design Guide"
+    },
+    {
+      "left": "closing-cost-estimator",
+      "right": "cloud-cost-estimator",
+      "name": "Cloud Cost Estimator"
+    },
+    {
+      "left": "closing-cost-estimator",
+      "right": "model-cost-estimator",
+      "name": "Model Cost Estimator"
+    },
+    {
+      "left": "cloud-cost-estimator",
+      "right": "model-cost-estimator",
+      "name": "Model Cost Estimator"
+    },
+    {
+      "left": "code-reviewer",
+      "right": "pandas-code-reviewer",
+      "name": "Pandas Code Reviewer"
+    },
+    {
+      "left": "code-reviewer",
+      "right": "solidity-code-reviewer",
+      "name": "Solidity Code Reviewer"
+    },
+    {
+      "left": "cold-call-script-generator",
+      "right": "sales-discovery-call-generator",
+      "name": "Sales Discovery Call Script Generator"
+    },
+    {
+      "left": "cold-email-writer",
+      "right": "email-reply-writer",
+      "name": "Email Reply Writer"
+    },
+    {
+      "left": "cold-email-writer",
+      "right": "onboarding-email-sequence-writer",
+      "name": "Onboarding Email Writer"
+    },
+    {
+      "left": "commission-plan-designer",
+      "right": "sampling-plan-designer",
+      "name": "Sampling Plan Designer"
+    },
+    {
+      "left": "content-localization-planner",
+      "right": "content-repurposing-planner",
+      "name": "Content Repurposing Planner"
+    },
+    {
+      "left": "content-localization-planner",
+      "right": "infographic-content-planner",
+      "name": "Infographic Content Planner"
+    },
+    {
+      "left": "content-repurposing-pipeline",
+      "right": "content-repurposing-planner",
+      "name": "Content Repurposing Planner"
+    },
+    {
+      "left": "content-repurposing-planner",
+      "right": "infographic-content-planner",
+      "name": "Infographic Content Planner"
+    },
+    {
+      "left": "contract-explainer",
+      "right": "smart-contract-auditor",
+      "name": "Smart Contract Auditor"
+    },
+    {
+      "left": "contract-risk-assessor",
+      "right": "renewal-risk-assessor",
+      "name": "Renewal Risk Assessor"
+    },
+    {
+      "left": "cross-chain-bridge-risk-reviewer",
+      "right": "supply-chain-risk-reviewer",
+      "name": "Supply Chain Risk Reviewer"
+    },
+    {
+      "left": "customer-advocacy-program-designer",
+      "right": "voice-of-customer-program-designer",
+      "name": "Voice of Customer Program Designer"
+    },
+    {
+      "left": "dao-proposal-writer",
+      "right": "grant-proposal-writer",
+      "name": "Grant Proposal Writer"
+    },
+    {
+      "left": "dao-proposal-writer",
+      "right": "partnership-proposal-writer",
+      "name": "Partnership Proposal Writer"
+    },
+    {
+      "left": "dashboard-design-reviewer",
+      "right": "form-design-reviewer",
+      "name": "Form Design Reviewer"
+    },
+    {
+      "left": "dashboard-design-reviewer",
+      "right": "localization-design-reviewer",
+      "name": "Localization Design Reviewer"
+    },
+    {
+      "left": "dashboard-design-reviewer",
+      "right": "mobile-design-reviewer",
+      "name": "Mobile Design Reviewer"
+    },
+    {
+      "left": "dashboard-design-reviewer",
+      "right": "schema-design-reviewer",
+      "name": "Schema Design Reviewer"
+    },
+    {
+      "left": "dashboard-design-reviewer",
+      "right": "survey-design-reviewer",
+      "name": "Survey Design Reviewer"
+    },
+    {
+      "left": "data-classification-policy-writer",
+      "right": "data-loss-prevention-policy-writer",
+      "name": "Data Loss Prevention Policy Writer"
+    },
+    {
+      "left": "data-classification-policy-writer",
+      "right": "data-retention-policy-writer",
+      "name": "Data Retention Policy Writer"
+    },
+    {
+      "left": "data-classification-policy-writer",
+      "right": "synthetic-data-policy-writer",
+      "name": "Synthetic Data Policy Writer"
+    },
+    {
+      "left": "data-dictionary-generator",
+      "right": "mock-data-generator",
+      "name": "Mock Data Generator"
+    },
+    {
+      "left": "data-loss-prevention-policy-writer",
+      "right": "data-retention-policy-writer",
+      "name": "Data Retention Policy Writer"
+    },
+    {
+      "left": "data-loss-prevention-policy-writer",
+      "right": "synthetic-data-policy-writer",
+      "name": "Synthetic Data Policy Writer"
+    },
+    {
+      "left": "data-pipeline-auditor",
+      "right": "pipeline-hygiene-auditor",
+      "name": "Pipeline Hygiene Auditor"
+    },
+    {
+      "left": "data-retention-policy-writer",
+      "right": "synthetic-data-policy-writer",
+      "name": "Synthetic Data Policy Writer"
+    },
+    {
+      "left": "database-query-optimizer",
+      "right": "graphql-query-optimizer",
+      "name": "GraphQL Query Optimizer"
+    },
+    {
+      "left": "database-query-optimizer",
+      "right": "sql-query-optimizer",
+      "name": "SQL Query Optimizer"
+    },
+    {
+      "left": "dataset-description-generator",
+      "right": "invoice-description-generator",
+      "name": "Invoice Description Generator"
+    },
+    {
+      "left": "demo-script-writer",
+      "right": "webinar-script-writer",
+      "name": "Webinar Script Writer"
+    },
+    {
+      "left": "demo-script-writer",
+      "right": "youtube-script-writer",
+      "name": "YouTube Script Writer"
+    },
+    {
+      "left": "dependency-upgrade-planner",
+      "right": "kubernetes-upgrade-planner",
+      "name": "Kubernetes Upgrade Planner"
+    },
+    {
+      "left": "deployment-checklist-generator",
+      "right": "moving-checklist-generator",
+      "name": "Moving Checklist Generator"
+    },
+    {
+      "left": "deployment-checklist-generator",
+      "right": "onboarding-checklist-generator",
+      "name": "Onboarding Checklist Generator"
+    },
+    {
+      "left": "deployment-checklist-generator",
+      "right": "reproducibility-checklist-generator",
+      "name": "Reproducibility Checklist Generator"
+    },
+    {
+      "left": "design-critique-generator",
+      "right": "design-token-generator",
+      "name": "Design Token Generator"
+    },
+    {
+      "left": "digital-detox-planner",
+      "right": "digital-legacy-planner",
+      "name": "Digital Legacy Planner"
+    },
+    {
+      "left": "docker-compose-debugger",
+      "right": "docker-compose-generator",
+      "name": "Docker Compose Generator"
+    },
+    {
+      "left": "email-authentication-auditor",
+      "right": "email-deliverability-auditor",
+      "name": "Email Deliverability Auditor"
+    },
+    {
+      "left": "email-reply-writer",
+      "right": "onboarding-email-sequence-writer",
+      "name": "Onboarding Email Writer"
+    },
+    {
+      "left": "event-schema-designer",
+      "right": "websocket-event-designer",
+      "name": "WebSocket Event Designer"
+    },
+    {
+      "left": "exit-interview-kit",
+      "right": "stay-interview-kit",
+      "name": "Stay Interview Kit"
+    },
+    {
+      "left": "expansion-playbook-writer",
+      "right": "sales-playbook-writer",
+      "name": "Sales Playbook Writer"
+    },
+    {
+      "left": "feature-flag-impact-analyzer",
+      "right": "feature-sunset-impact-analyzer",
+      "name": "Feature Sunset Impact Analyzer"
+    },
+    {
+      "left": "follow-up-email-sequence-writer",
+      "right": "webinar-follow-up-writer",
+      "name": "Webinar Follow-Up Writer"
+    },
+    {
+      "left": "form-design-reviewer",
+      "right": "localization-design-reviewer",
+      "name": "Localization Design Reviewer"
+    },
+    {
+      "left": "form-design-reviewer",
+      "right": "mobile-design-reviewer",
+      "name": "Mobile Design Reviewer"
+    },
+    {
+      "left": "form-design-reviewer",
+      "right": "schema-design-reviewer",
+      "name": "Schema Design Reviewer"
+    },
+    {
+      "left": "form-design-reviewer",
+      "right": "survey-design-reviewer",
+      "name": "Survey Design Reviewer"
+    },
+    {
+      "left": "github-pr-reviewer",
+      "right": "pr-diff-reviewer",
+      "name": "PR Diff Reviewer"
+    },
+    {
+      "left": "gitops-workflow-designer",
+      "right": "telehealth-workflow-designer",
+      "name": "Telehealth Workflow Designer"
+    },
+    {
+      "left": "grant-proposal-writer",
+      "right": "grant-report-writer",
+      "name": "Grant Report Writer"
+    },
+    {
+      "left": "grant-proposal-writer",
+      "right": "partnership-proposal-writer",
+      "name": "Partnership Proposal Writer"
+    },
+    {
+      "left": "graphql-query-optimizer",
+      "right": "sql-query-optimizer",
+      "name": "SQL Query Optimizer"
+    },
+    {
+      "left": "graphql-schema-generator",
+      "right": "json-schema-generator",
+      "name": "JSON Schema Generator"
+    },
+    {
+      "left": "graphql-security-auditor",
+      "right": "openapi-security-auditor",
+      "name": "OpenAPI Security Auditor"
+    },
+    {
+      "left": "graphql-security-auditor",
+      "right": "security-headers-auditor",
+      "name": "Security Headers Auditor"
+    },
+    {
+      "left": "grpc-service-designer",
+      "right": "service-catalog-designer",
+      "name": "Service Catalog Designer"
+    },
+    {
+      "left": "incident-response-runbook-generator",
+      "right": "incident-runbook-generator",
+      "name": "Incident Runbook Generator"
+    },
+    {
+      "left": "influencer-brief-writer",
+      "right": "logo-brief-writer",
+      "name": "Logo Brief Writer"
+    },
+    {
+      "left": "influencer-brief-writer",
+      "right": "technical-brief-writer",
+      "name": "Technical Brief Writer"
+    },
+    {
+      "left": "influencer-brief-writer",
+      "right": "ugc-brief-writer",
+      "name": "UGC Brief Writer"
+    },
+    {
+      "left": "job-description-writer",
+      "right": "property-description-writer",
+      "name": "Property Description Writer"
+    },
+    {
+      "left": "kubernetes-cost-optimizer",
+      "right": "observability-cost-optimizer",
+      "name": "Observability Cost Optimizer"
+    },
+    {
+      "left": "learning-budget-allocator",
+      "right": "marketing-budget-allocator",
+      "name": "Marketing Budget Allocator"
+    },
+    {
+      "left": "literature-review-outliner",
+      "right": "literature-review-planner",
+      "name": "Literature Review Planner"
+    },
+    {
+      "left": "llm-threat-modeler",
+      "right": "privacy-threat-modeler",
+      "name": "Privacy Threat Modeler"
+    },
+    {
+      "left": "localization-design-reviewer",
+      "right": "mobile-design-reviewer",
+      "name": "Mobile Design Reviewer"
+    },
+    {
+      "left": "localization-design-reviewer",
+      "right": "schema-design-reviewer",
+      "name": "Schema Design Reviewer"
+    },
+    {
+      "left": "localization-design-reviewer",
+      "right": "survey-design-reviewer",
+      "name": "Survey Design Reviewer"
+    },
+    {
+      "left": "logo-brief-writer",
+      "right": "technical-brief-writer",
+      "name": "Technical Brief Writer"
+    },
+    {
+      "left": "logo-brief-writer",
+      "right": "ugc-brief-writer",
+      "name": "UGC Brief Writer"
+    },
+    {
+      "left": "loyalty-program-designer",
+      "right": "referral-program-designer",
+      "name": "Referral Program Designer"
+    },
+    {
+      "left": "meta-analysis-planner",
+      "right": "survival-analysis-planner",
+      "name": "Survival Analysis Planner"
+    },
+    {
+      "left": "mindmap-generator",
+      "right": "mnemonic-generator",
+      "name": "Crammo: Mnemonic Generator"
+    },
+    {
+      "left": "mobile-design-reviewer",
+      "right": "schema-design-reviewer",
+      "name": "Schema Design Reviewer"
+    },
+    {
+      "left": "mobile-design-reviewer",
+      "right": "survey-design-reviewer",
+      "name": "Survey Design Reviewer"
+    },
+    {
+      "left": "morning-routine-designer",
+      "right": "sleep-routine-designer",
+      "name": "Sleep Routine Designer"
+    },
+    {
+      "left": "moving-checklist-generator",
+      "right": "onboarding-checklist-generator",
+      "name": "Onboarding Checklist Generator"
+    },
+    {
+      "left": "moving-checklist-generator",
+      "right": "reproducibility-checklist-generator",
+      "name": "Reproducibility Checklist Generator"
+    },
+    {
+      "left": "nginx-config-generator",
+      "right": "renovate-config-generator",
+      "name": "Renovate Config Generator"
+    },
+    {
+      "left": "nginx-config-generator",
+      "right": "ssh-config-generator",
+      "name": "SSH Config Generator"
+    },
+    {
+      "left": "nginx-config-generator",
+      "right": "terraform-config-generator",
+      "name": "Terraform Config Generator Agent"
+    },
+    {
+      "left": "onboarding-checklist-generator",
+      "right": "reproducibility-checklist-generator",
+      "name": "Reproducibility Checklist Generator"
+    },
+    {
+      "left": "openapi-security-auditor",
+      "right": "security-headers-auditor",
+      "name": "Security Headers Auditor"
+    },
+    {
+      "left": "pandas-code-reviewer",
+      "right": "solidity-code-reviewer",
+      "name": "Solidity Code Reviewer"
+    },
+    {
+      "left": "peer-review-assistant",
+      "right": "peer-review-response-writer",
+      "name": "Peer Review Response Writer"
+    },
+    {
+      "left": "peer-review-response-writer",
+      "right": "review-response-writer",
+      "name": "Review Response Writer"
+    },
+    {
+      "left": "performance-review-writer",
+      "right": "review-response-writer",
+      "name": "Review Response Writer"
+    },
+    {
+      "left": "pitch-deck-outline-builder",
+      "right": "pitch-deck-reviewer",
+      "name": "Pitch Deck Reviewer"
+    },
+    {
+      "left": "product-changelog-writer",
+      "right": "product-manual-writer",
+      "name": "Product Manual Writer"
+    },
+    {
+      "left": "product-launch-checklist",
+      "right": "token-launch-checklist",
+      "name": "Token Launch Checklist"
+    },
+    {
+      "left": "renovate-config-generator",
+      "right": "ssh-config-generator",
+      "name": "SSH Config Generator"
+    },
+    {
+      "left": "renovate-config-generator",
+      "right": "terraform-config-generator",
+      "name": "Terraform Config Generator Agent"
+    },
+    {
+      "left": "research-data-management-plan-writer",
+      "right": "ux-research-plan-writer",
+      "name": "UX Research Plan Writer"
+    },
+    {
+      "left": "resume-bullet-improver",
+      "right": "resume-bullet-rewriter",
+      "name": "Resume Bullet Point Rewriter"
+    },
+    {
+      "left": "retry-budget-planner",
+      "right": "wedding-budget-breakdown",
+      "name": "Wedding Budget Planner"
+    },
+    {
+      "left": "sales-handoff-writer",
+      "right": "sales-playbook-writer",
+      "name": "Sales Playbook Writer"
+    },
+    {
+      "left": "schema-design-reviewer",
+      "right": "survey-design-reviewer",
+      "name": "Survey Design Reviewer"
+    },
+    {
+      "left": "smart-contract-incident-response-planner",
+      "right": "smart-contract-monitoring-planner",
+      "name": "Smart Contract Monitoring Planner"
+    },
+    {
+      "left": "sql-query-explainer",
+      "right": "sql-query-generator",
+      "name": "SQL Query Generator"
+    },
+    {
+      "left": "sql-query-explainer",
+      "right": "sql-query-optimizer",
+      "name": "SQL Query Optimizer"
+    },
+    {
+      "left": "sql-query-generator",
+      "right": "sql-query-optimizer",
+      "name": "SQL Query Optimizer"
+    },
+    {
+      "left": "ssh-config-generator",
+      "right": "terraform-config-generator",
+      "name": "Terraform Config Generator Agent"
+    },
+    {
+      "left": "startup-idea-brainstormer",
+      "right": "startup-idea-validator",
+      "name": "Startup Idea Validator"
+    },
+    {
+      "left": "technical-brief-writer",
+      "right": "ugc-brief-writer",
+      "name": "UGC Brief Writer"
+    },
+    {
+      "left": "test-case-generator",
+      "right": "unit-test-generator",
+      "name": "Unit Test Generator"
+    },
+    {
+      "left": "webinar-script-writer",
+      "right": "youtube-script-writer",
+      "name": "YouTube Script Writer"
+    }
+  ],
+  "context": {
+    "ab-test-analyzer": {
+      "id": "ab-test-analyzer",
+      "inputContext": "Distinct fields: Test results (textarea) · Primary metric (text) · Runtime and setup notes (text)",
+      "matches": [
+        {
+          "id": "ab-test-planner",
+          "name": "A/B Test Planner"
+        }
+      ]
+    },
+    "ab-test-planner": {
+      "id": "ab-test-planner",
+      "inputContext": "Distinct fields: Goal and context (textarea) · Variants being considered (textarea) · Available traffic (text)",
+      "matches": [
+        {
+          "id": "ab-test-analyzer",
+          "name": "A/B Test Analyzer"
+        }
+      ]
+    },
+    "accessibility-audit-checklist": {
+      "id": "accessibility-audit-checklist",
+      "inputContext": "Distinct fields: Page/component type (text) · WCAG level (text)",
+      "matches": [
+        {
+          "id": "accessibility-audit-generator",
+          "name": "Accessibility Audit Generator"
+        }
+      ]
+    },
+    "accessibility-audit-generator": {
+      "id": "accessibility-audit-generator",
+      "inputContext": "Distinct fields: HTML or component code (code) · WCAG standard (select) · Framework (select) · +1 more",
+      "matches": [
+        {
+          "id": "accessibility-audit-checklist",
+          "name": "Accessibility Audit Checklist"
+        }
+      ]
+    },
+    "account-plan-builder": {
+      "id": "account-plan-builder",
+      "inputContext": "Distinct fields: Account background (textarea) · Current ARR or spend (text) · Known contacts (textarea)",
+      "matches": [
+        {
+          "id": "quota-plan-builder",
+          "name": "Quota Plan Builder"
+        }
+      ]
+    },
+    "ai-guardrail-policy-writer": {
+      "id": "ai-guardrail-policy-writer",
+      "inputContext": "Distinct fields: Agent description (textarea) · Tools / actions the agent can take (textarea) · Risk tolerance (select) · +1 more",
+      "matches": [
+        {
+          "id": "ai-usage-policy-writer",
+          "name": "AI Usage Policy Writer"
+        },
+        {
+          "id": "password-policy-writer",
+          "name": "Password Policy Writer"
+        }
+      ]
+    },
+    "ai-model-supply-chain-reviewer": {
+      "id": "ai-model-supply-chain-reviewer",
+      "inputContext": "Distinct fields: Model details (textarea) · Vendor and license (textarea) · Deployment context (textarea)",
+      "matches": [
+        {
+          "id": "supply-chain-risk-reviewer",
+          "name": "Supply Chain Risk Reviewer"
+        }
+      ]
+    },
+    "ai-project-architecture-agent": {
+      "id": "ai-project-architecture-agent",
+      "inputContext": "Distinct fields: Project Type (select) · Expected Number of Users (select) · Preferred Programming Language (select) · +3 more",
+      "matches": [
+        {
+          "id": "project-architecture-planner",
+          "name": "Project Architecture Planner"
+        }
+      ]
+    },
+    "ai-study-planner": {
+      "id": "ai-study-planner",
+      "inputContext": "Distinct fields: Subjects or Courses (textarea) · Exam Dates (textarea) · Daily Available Study Hours (text) · +3 more",
+      "matches": [
+        {
+          "id": "causal-inference-study-planner",
+          "name": "Causal Inference Study Planner"
+        }
+      ]
+    },
+    "ai-usage-policy-writer": {
+      "id": "ai-usage-policy-writer",
+      "inputContext": "Distinct fields: Organization (textarea) · Risk priorities (textarea) · Approved tools (text)",
+      "matches": [
+        {
+          "id": "ai-guardrail-policy-writer",
+          "name": "AI Agent Guardrail Policy Writer"
+        },
+        {
+          "id": "password-policy-writer",
+          "name": "Password Policy Writer"
+        }
+      ]
+    },
+    "api-changelog-writer": {
+      "id": "api-changelog-writer",
+      "inputContext": "Distinct fields: API changes or spec diff (textarea) · Versioning policy (select)",
+      "matches": [
+        {
+          "id": "product-changelog-writer",
+          "name": "Product Changelog Writer"
+        }
+      ]
+    },
+    "api-doc-generator": {
+      "id": "api-doc-generator",
+      "inputContext": "Distinct fields: Code to document (code) · Language (select) · Documentation style (select)",
+      "matches": [
+        {
+          "id": "env-doc-generator",
+          "name": "Env Doc Generator"
+        }
+      ]
+    },
+    "api-error-message-writer": {
+      "id": "api-error-message-writer",
+      "inputContext": "Distinct fields: Error Code / Identifier (text) · Failure Context / System Log Snippet (textarea) · Target Audience Profile (text)",
+      "matches": [
+        {
+          "id": "error-message-writer",
+          "name": "Error Message Writer"
+        }
+      ]
+    },
+    "api-pagination-designer": {
+      "id": "api-pagination-designer",
+      "inputContext": "Distinct fields: Collection endpoint (textarea) · Expected scale (text) · Constraints (textarea)",
+      "matches": [
+        {
+          "id": "component-api-designer",
+          "name": "Component API Designer"
+        }
+      ]
+    },
+    "apology-message-writer": {
+      "id": "apology-message-writer",
+      "inputContext": "Distinct fields: What happened (textarea) · Recipient (text) · Delivery channel (select)",
+      "matches": [
+        {
+          "id": "error-message-writer",
+          "name": "Error Message Writer"
+        }
+      ]
+    },
+    "async-update-writer": {
+      "id": "async-update-writer",
+      "inputContext": "Distinct fields: Raw notes (textarea) · Audience (text) · Ask (textarea)",
+      "matches": [
+        {
+          "id": "investor-update-writer",
+          "name": "Investor Update Writer"
+        }
+      ]
+    },
+    "beta-program-designer": {
+      "id": "beta-program-designer",
+      "inputContext": "Distinct fields: Product and beta goal (textarea) · Target participants (textarea) · Support capacity (text)",
+      "matches": [
+        {
+          "id": "loyalty-program-designer",
+          "name": "Loyalty Program Designer"
+        },
+        {
+          "id": "referral-program-designer",
+          "name": "Referral Program Designer"
+        }
+      ]
+    },
+    "board-deck-outline-builder": {
+      "id": "board-deck-outline-builder",
+      "inputContext": "Distinct fields: Reporting period (text) · Key metrics and progress (textarea) · Asks of the board (textarea)",
+      "matches": [
+        {
+          "id": "pitch-deck-outline-builder",
+          "name": "Pitch Deck Outliner"
+        }
+      ]
+    },
+    "book-blurb-writer": {
+      "id": "book-blurb-writer",
+      "inputContext": "Distinct fields: Book summary (textarea) · Audience and genre (textarea) · Tone (text)",
+      "matches": [
+        {
+          "id": "book-proposal-writer",
+          "name": "Book Proposal Writer"
+        }
+      ]
+    },
+    "book-proposal-writer": {
+      "id": "book-proposal-writer",
+      "inputContext": "Distinct fields: Book idea (textarea) · Author background (textarea) · Target audience (text)",
+      "matches": [
+        {
+          "id": "book-blurb-writer",
+          "name": "Book Blurb Writer"
+        },
+        {
+          "id": "dao-proposal-writer",
+          "name": "DAO Proposal Writer"
+        },
+        {
+          "id": "grant-proposal-writer",
+          "name": "Grant Proposal Writer"
+        },
+        {
+          "id": "partnership-proposal-writer",
+          "name": "Partnership Proposal Writer"
+        }
+      ]
+    },
+    "brand-architecture-planner": {
+      "id": "brand-architecture-planner",
+      "inputContext": "Distinct fields: Portfolio (textarea) · Growth plans (textarea) · Constraints (textarea)",
+      "matches": [
+        {
+          "id": "project-architecture-planner",
+          "name": "Project Architecture Planner"
+        }
+      ]
+    },
+    "car-buy-vs-lease-analyzer": {
+      "id": "car-buy-vs-lease-analyzer",
+      "inputContext": "Distinct fields: Car and deal terms (text) · Annual mileage (text) · Comparison horizon (select)",
+      "matches": [
+        {
+          "id": "rent-vs-buy-analyzer",
+          "name": "Rent vs Buy Analyzer"
+        }
+      ]
+    },
+    "causal-inference-study-planner": {
+      "id": "causal-inference-study-planner",
+      "inputContext": "Distinct fields: Decision question (textarea) · Data and setting (textarea) · Constraints (textarea)",
+      "matches": [
+        {
+          "id": "ai-study-planner",
+          "name": "AI Study Planner"
+        }
+      ]
+    },
+    "cheatsheet-generator": {
+      "id": "cheatsheet-generator",
+      "inputContext": "Inputs: Paste your study material here (textarea) · Custom Instruction (Optional) (text)",
+      "matches": [
+        {
+          "id": "mindmap-generator",
+          "name": "Crammo: Mindmap Generator"
+        },
+        {
+          "id": "mnemonic-generator",
+          "name": "Crammo: Mnemonic Generator"
+        }
+      ]
+    },
+    "ci-cd-pipeline-reviewer": {
+      "id": "ci-cd-pipeline-reviewer",
+      "inputContext": "Distinct fields: Pipeline configuration (code) · Average build time (text) · Failure rate (text)",
+      "matches": [
+        {
+          "id": "cicd-pipeline-generator",
+          "name": "CI/CD Pipeline Generator"
+        }
+      ]
+    },
+    "cicd-pipeline-generator": {
+      "id": "cicd-pipeline-generator",
+      "inputContext": "Distinct fields: Tech Stack (text) · Test Commands (text) · CI/CD Platform (select) · +1 more",
+      "matches": [
+        {
+          "id": "ci-cd-pipeline-reviewer",
+          "name": "CI/CD Pipeline Reviewer"
+        }
+      ]
+    },
+    "classroom-management-plan-writer": {
+      "id": "classroom-management-plan-writer",
+      "inputContext": "Distinct fields: Classroom context (textarea) · Values and current practice (textarea) · Constraints (text)",
+      "matches": [
+        {
+          "id": "research-data-management-plan-writer",
+          "name": "Research Data Management Plan Writer"
+        }
+      ]
+    },
+    "cli-design-guide": {
+      "id": "cli-design-guide",
+      "inputContext": "Distinct fields: Tool purpose and commands (textarea) · Primary users (text) · Distribution channel (select)",
+      "matches": [
+        {
+          "id": "sdk-design-guide",
+          "name": "SDK Design Guide"
+        }
+      ]
+    },
+    "closing-cost-estimator": {
+      "id": "closing-cost-estimator",
+      "inputContext": "Distinct fields: Transaction (textarea) · Known fees (textarea) · Location (text)",
+      "matches": [
+        {
+          "id": "cloud-cost-estimator",
+          "name": "Cloud Cost Estimator"
+        },
+        {
+          "id": "model-cost-estimator",
+          "name": "Model Cost Estimator"
+        }
+      ]
+    },
+    "cloud-cost-estimator": {
+      "id": "cloud-cost-estimator",
+      "inputContext": "Distinct fields: Infrastructure Description (textarea) · Cloud Provider (select) · Preferred Region (text) · +2 more",
+      "matches": [
+        {
+          "id": "closing-cost-estimator",
+          "name": "Closing Cost Estimator"
+        },
+        {
+          "id": "model-cost-estimator",
+          "name": "Model Cost Estimator"
+        }
+      ]
+    },
+    "code-reviewer": {
+      "id": "code-reviewer",
+      "inputContext": "Distinct fields: Code (code) · Language (select) · Review focus (multiselect)",
+      "matches": [
+        {
+          "id": "pandas-code-reviewer",
+          "name": "Pandas Code Reviewer"
+        },
+        {
+          "id": "solidity-code-reviewer",
+          "name": "Solidity Code Reviewer"
+        }
+      ]
+    },
+    "cold-call-script-generator": {
+      "id": "cold-call-script-generator",
+      "inputContext": "Distinct fields: Product (one line) (textarea) · Prospect role (text) · Likely pain points (textarea) · +1 more",
+      "matches": [
+        {
+          "id": "sales-discovery-call-generator",
+          "name": "Sales Discovery Call Script Generator"
+        }
+      ]
+    },
+    "cold-email-writer": {
+      "id": "cold-email-writer",
+      "inputContext": "Distinct fields: Your product/service (textarea) · Target persona (text) · Pain point to address (text) · +2 more",
+      "matches": [
+        {
+          "id": "email-reply-writer",
+          "name": "Email Reply Writer"
+        },
+        {
+          "id": "onboarding-email-sequence-writer",
+          "name": "Onboarding Email Writer"
+        }
+      ]
+    },
+    "commission-plan-designer": {
+      "id": "commission-plan-designer",
+      "inputContext": "Distinct fields: Sales roles (text) · Average deal size (text) · Compensation targets (text)",
+      "matches": [
+        {
+          "id": "sampling-plan-designer",
+          "name": "Sampling Plan Designer"
+        }
+      ]
+    },
+    "component-api-designer": {
+      "id": "component-api-designer",
+      "inputContext": "Distinct fields: Use cases (textarea) · Current implementation (textarea) · Design system (text)",
+      "matches": [
+        {
+          "id": "api-pagination-designer",
+          "name": "API Pagination Designer"
+        }
+      ]
+    },
+    "content-localization-planner": {
+      "id": "content-localization-planner",
+      "inputContext": "Distinct fields: Content inventory (textarea) · Target markets (textarea) · Constraints (text)",
+      "matches": [
+        {
+          "id": "content-repurposing-planner",
+          "name": "Content Repurposing Planner"
+        },
+        {
+          "id": "infographic-content-planner",
+          "name": "Infographic Content Planner"
+        }
+      ]
+    },
+    "content-repurposing-pipeline": {
+      "id": "content-repurposing-pipeline",
+      "inputContext": "Distinct fields: Target platforms (text) · Brand tone (text)",
+      "matches": [
+        {
+          "id": "content-repurposing-planner",
+          "name": "Content Repurposing Planner"
+        }
+      ]
+    },
+    "content-repurposing-planner": {
+      "id": "content-repurposing-planner",
+      "inputContext": "Distinct fields: Target formats (select) · Voice notes (optional) (text)",
+      "matches": [
+        {
+          "id": "content-localization-planner",
+          "name": "Content Localization Planner"
+        },
+        {
+          "id": "content-repurposing-pipeline",
+          "name": "Content Repurposing Pipeline"
+        },
+        {
+          "id": "infographic-content-planner",
+          "name": "Infographic Content Planner"
+        }
+      ]
+    },
+    "contract-explainer": {
+      "id": "contract-explainer",
+      "inputContext": "Distinct fields: Language (select) · Explanation level (select)",
+      "matches": [
+        {
+          "id": "smart-contract-auditor",
+          "name": "Smart Contract Auditor"
+        }
+      ]
+    },
+    "contract-risk-assessor": {
+      "id": "contract-risk-assessor",
+      "inputContext": "Distinct fields: Contract text (code) · Your position (text)",
+      "matches": [
+        {
+          "id": "renewal-risk-assessor",
+          "name": "Renewal Risk Assessor"
+        }
+      ]
+    },
+    "cross-chain-bridge-risk-reviewer": {
+      "id": "cross-chain-bridge-risk-reviewer",
+      "inputContext": "Distinct fields: Bridge architecture (textarea) · Controls (textarea) · Assets at risk (text)",
+      "matches": [
+        {
+          "id": "supply-chain-risk-reviewer",
+          "name": "Supply Chain Risk Reviewer"
+        }
+      ]
+    },
+    "customer-advocacy-program-designer": {
+      "id": "customer-advocacy-program-designer",
+      "inputContext": "Distinct fields: Customers (textarea) · Goals (textarea) · Constraints (textarea)",
+      "matches": [
+        {
+          "id": "voice-of-customer-program-designer",
+          "name": "Voice of Customer Program Designer"
+        }
+      ]
+    },
+    "dao-proposal-writer": {
+      "id": "dao-proposal-writer",
+      "inputContext": "Distinct fields: Proposal idea (textarea) · DAO context (text) · Proposal type (select)",
+      "matches": [
+        {
+          "id": "book-proposal-writer",
+          "name": "Book Proposal Writer"
+        },
+        {
+          "id": "grant-proposal-writer",
+          "name": "Grant Proposal Writer"
+        },
+        {
+          "id": "partnership-proposal-writer",
+          "name": "Partnership Proposal Writer"
+        }
+      ]
+    },
+    "dashboard-design-reviewer": {
+      "id": "dashboard-design-reviewer",
+      "inputContext": "Distinct fields: Dashboard (textarea) · Users and decisions (textarea)",
+      "matches": [
+        {
+          "id": "form-design-reviewer",
+          "name": "Form Design Reviewer"
+        },
+        {
+          "id": "localization-design-reviewer",
+          "name": "Localization Design Reviewer"
+        },
+        {
+          "id": "mobile-design-reviewer",
+          "name": "Mobile Design Reviewer"
+        },
+        {
+          "id": "schema-design-reviewer",
+          "name": "Schema Design Reviewer"
+        },
+        {
+          "id": "survey-design-reviewer",
+          "name": "Survey Design Reviewer"
+        }
+      ]
+    },
+    "data-classification-policy-writer": {
+      "id": "data-classification-policy-writer",
+      "inputContext": "Distinct fields: Data types (textarea) · Business context (textarea) · Organization size (text)",
+      "matches": [
+        {
+          "id": "data-loss-prevention-policy-writer",
+          "name": "Data Loss Prevention Policy Writer"
+        },
+        {
+          "id": "data-retention-policy-writer",
+          "name": "Data Retention Policy Writer"
+        },
+        {
+          "id": "synthetic-data-policy-writer",
+          "name": "Synthetic Data Policy Writer"
+        }
+      ]
+    },
+    "data-dictionary-generator": {
+      "id": "data-dictionary-generator",
+      "inputContext": "Distinct fields: Schema, headers, or table description (textarea) · Business context (optional) (textarea) · Output format (select) · +1 more",
+      "matches": [
+        {
+          "id": "mock-data-generator",
+          "name": "Mock Data Generator"
+        }
+      ]
+    },
+    "data-loss-prevention-policy-writer": {
+      "id": "data-loss-prevention-policy-writer",
+      "inputContext": "Distinct fields: Data types (textarea) · Work environment (textarea)",
+      "matches": [
+        {
+          "id": "data-classification-policy-writer",
+          "name": "Data Classification Policy Writer"
+        },
+        {
+          "id": "data-retention-policy-writer",
+          "name": "Data Retention Policy Writer"
+        },
+        {
+          "id": "synthetic-data-policy-writer",
+          "name": "Synthetic Data Policy Writer"
+        }
+      ]
+    },
+    "data-pipeline-auditor": {
+      "id": "data-pipeline-auditor",
+      "inputContext": "Distinct fields: Pipeline description or code (textarea) · Tools in use (text) · Known issues (text)",
+      "matches": [
+        {
+          "id": "pipeline-hygiene-auditor",
+          "name": "Pipeline Hygiene Auditor"
+        }
+      ]
+    },
+    "data-retention-policy-writer": {
+      "id": "data-retention-policy-writer",
+      "inputContext": "Distinct fields: Data classes (textarea) · Requirements (textarea) · Jurisdictions (text)",
+      "matches": [
+        {
+          "id": "data-classification-policy-writer",
+          "name": "Data Classification Policy Writer"
+        },
+        {
+          "id": "data-loss-prevention-policy-writer",
+          "name": "Data Loss Prevention Policy Writer"
+        },
+        {
+          "id": "synthetic-data-policy-writer",
+          "name": "Synthetic Data Policy Writer"
+        }
+      ]
+    },
+    "database-query-optimizer": {
+      "id": "database-query-optimizer",
+      "inputContext": "Distinct fields: SQL Query (textarea) · Schema / Table Definitions(optional) (textarea) · SQL Dialect (Optional) (textarea)",
+      "matches": [
+        {
+          "id": "graphql-query-optimizer",
+          "name": "GraphQL Query Optimizer"
+        },
+        {
+          "id": "sql-query-optimizer",
+          "name": "SQL Query Optimizer"
+        }
+      ]
+    },
+    "dataset-description-generator": {
+      "id": "dataset-description-generator",
+      "inputContext": "Distinct fields: Column names, data types & sample values (textarea) · Dataset name (text) · Business context (optional) (textarea)",
+      "matches": [
+        {
+          "id": "invoice-description-generator",
+          "name": "Invoice Description Generator"
+        }
+      ]
+    },
+    "demo-script-writer": {
+      "id": "demo-script-writer",
+      "inputContext": "Distinct fields: Product and key capabilities (textarea) · Buyer persona (optional) (text) · Demo length (select)",
+      "matches": [
+        {
+          "id": "webinar-script-writer",
+          "name": "Webinar Script Writer"
+        },
+        {
+          "id": "youtube-script-writer",
+          "name": "YouTube Script Writer"
+        }
+      ]
+    },
+    "dependency-upgrade-planner": {
+      "id": "dependency-upgrade-planner",
+      "inputContext": "Distinct fields: Dependencies (textarea) · Runtime versions (text) · Constraints (textarea)",
+      "matches": [
+        {
+          "id": "kubernetes-upgrade-planner",
+          "name": "Kubernetes Upgrade Planner"
+        }
+      ]
+    },
+    "deployment-checklist-generator": {
+      "id": "deployment-checklist-generator",
+      "inputContext": "Distinct fields: Tech stack (text) · Deploy method (select) · Risk level (select)",
+      "matches": [
+        {
+          "id": "moving-checklist-generator",
+          "name": "Moving Checklist Generator"
+        },
+        {
+          "id": "onboarding-checklist-generator",
+          "name": "Onboarding Checklist Generator"
+        },
+        {
+          "id": "reproducibility-checklist-generator",
+          "name": "Reproducibility Checklist Generator"
+        }
+      ]
+    },
+    "design-critique-generator": {
+      "id": "design-critique-generator",
+      "inputContext": "Distinct fields: Design description (textarea) · Design goal (text) · Target audience (text)",
+      "matches": [
+        {
+          "id": "design-token-generator",
+          "name": "Design Token Generator"
+        }
+      ]
+    },
+    "design-token-generator": {
+      "id": "design-token-generator",
+      "inputContext": "Distinct fields: Brand colors (textarea) · Spacing scale (text) · Typography scale (text)",
+      "matches": [
+        {
+          "id": "design-critique-generator",
+          "name": "Design Critique Generator"
+        }
+      ]
+    },
+    "digital-detox-planner": {
+      "id": "digital-detox-planner",
+      "inputContext": "Distinct fields: Current screen habits (textarea) · Biggest drain (optional) (text) · Detox duration (select)",
+      "matches": [
+        {
+          "id": "digital-legacy-planner",
+          "name": "Digital Legacy Planner"
+        }
+      ]
+    },
+    "digital-legacy-planner": {
+      "id": "digital-legacy-planner",
+      "inputContext": "Distinct fields: Accounts (textarea) · Wishes (textarea) · Constraints (textarea)",
+      "matches": [
+        {
+          "id": "digital-detox-planner",
+          "name": "Digital Detox Planner"
+        }
+      ]
+    },
+    "docker-compose-debugger": {
+      "id": "docker-compose-debugger",
+      "inputContext": "Distinct fields: Compose file (code) · Symptoms and logs (textarea) · Host OS (text)",
+      "matches": [
+        {
+          "id": "docker-compose-generator",
+          "name": "Docker Compose Generator"
+        }
+      ]
+    },
+    "docker-compose-generator": {
+      "id": "docker-compose-generator",
+      "inputContext": "Distinct fields: Service Description (textarea) · Environment (select) · Include Volumes (select) · +1 more",
+      "matches": [
+        {
+          "id": "docker-compose-debugger",
+          "name": "Docker Compose Debugger"
+        }
+      ]
+    },
+    "email-authentication-auditor": {
+      "id": "email-authentication-auditor",
+      "inputContext": "Distinct fields: Domains and senders (textarea) · DNS records (textarea) · Constraints (textarea)",
+      "matches": [
+        {
+          "id": "email-deliverability-auditor",
+          "name": "Email Deliverability Auditor"
+        }
+      ]
+    },
+    "email-deliverability-auditor": {
+      "id": "email-deliverability-auditor",
+      "inputContext": "Distinct fields: Sending setup (textarea) · List and content practices (textarea) · Sending volume (text)",
+      "matches": [
+        {
+          "id": "email-authentication-auditor",
+          "name": "Email Authentication Auditor"
+        }
+      ]
+    },
+    "email-reply-writer": {
+      "id": "email-reply-writer",
+      "inputContext": "Distinct fields: Email you received (textarea) · How do you want to respond? (textarea) · Tone (select) · +1 more",
+      "matches": [
+        {
+          "id": "cold-email-writer",
+          "name": "Cold Email Writer"
+        },
+        {
+          "id": "onboarding-email-sequence-writer",
+          "name": "Onboarding Email Writer"
+        }
+      ]
+    },
+    "env-doc-generator": {
+      "id": "env-doc-generator",
+      "inputContext": "Distinct fields: .env.example Content (textarea)",
+      "matches": [
+        {
+          "id": "api-doc-generator",
+          "name": "API Doc Generator"
+        }
+      ]
+    },
+    "error-message-writer": {
+      "id": "error-message-writer",
+      "inputContext": "Distinct fields: Error / Stack Trace (code) · Language / Runtime (select) · Context (optional) (textarea)",
+      "matches": [
+        {
+          "id": "api-error-message-writer",
+          "name": "API Error Message Writer"
+        },
+        {
+          "id": "apology-message-writer",
+          "name": "Apology Message Writer"
+        }
+      ]
+    },
+    "event-schema-designer": {
+      "id": "event-schema-designer",
+      "inputContext": "Distinct fields: Event domain (textarea) · Broker (select) · Ordering requirement (select)",
+      "matches": [
+        {
+          "id": "websocket-event-designer",
+          "name": "WebSocket Event Designer"
+        }
+      ]
+    },
+    "exit-interview-kit": {
+      "id": "exit-interview-kit",
+      "inputContext": "Distinct fields: Company context (text) · Turnover background (textarea) · Interview format (select)",
+      "matches": [
+        {
+          "id": "stay-interview-kit",
+          "name": "Stay Interview Kit"
+        }
+      ]
+    },
+    "expansion-playbook-writer": {
+      "id": "expansion-playbook-writer",
+      "inputContext": "Distinct fields: Segment (textarea) · Product (textarea) · Data (textarea)",
+      "matches": [
+        {
+          "id": "sales-playbook-writer",
+          "name": "Sales Playbook Writer"
+        }
+      ]
+    },
+    "feature-flag-impact-analyzer": {
+      "id": "feature-flag-impact-analyzer",
+      "inputContext": "Distinct fields: Flag name (text) · Rollout metrics (textarea) · Error rate (text)",
+      "matches": [
+        {
+          "id": "feature-sunset-impact-analyzer",
+          "name": "Feature Sunset Impact Analyzer"
+        }
+      ]
+    },
+    "feature-sunset-impact-analyzer": {
+      "id": "feature-sunset-impact-analyzer",
+      "inputContext": "Distinct fields: Feature and usage (textarea) · Dependencies (textarea) · Target timeline (text)",
+      "matches": [
+        {
+          "id": "feature-flag-impact-analyzer",
+          "name": "Feature Flag Impact Analyzer"
+        }
+      ]
+    },
+    "follow-up-email-sequence-writer": {
+      "id": "follow-up-email-sequence-writer",
+      "inputContext": "Distinct fields: Product (textarea) · Prospect Situation (textarea) · Last Interaction (textarea)",
+      "matches": [
+        {
+          "id": "webinar-follow-up-writer",
+          "name": "Webinar Follow-Up Writer"
+        }
+      ]
+    },
+    "form-design-reviewer": {
+      "id": "form-design-reviewer",
+      "inputContext": "Distinct fields: Form description or markup (textarea) · Stakes level (select) · Fields of concern (optional) (text)",
+      "matches": [
+        {
+          "id": "dashboard-design-reviewer",
+          "name": "Dashboard Design Reviewer"
+        },
+        {
+          "id": "localization-design-reviewer",
+          "name": "Localization Design Reviewer"
+        },
+        {
+          "id": "mobile-design-reviewer",
+          "name": "Mobile Design Reviewer"
+        },
+        {
+          "id": "schema-design-reviewer",
+          "name": "Schema Design Reviewer"
+        },
+        {
+          "id": "survey-design-reviewer",
+          "name": "Survey Design Reviewer"
+        }
+      ]
+    },
+    "github-pr-reviewer": {
+      "id": "github-pr-reviewer",
+      "inputContext": "Distinct fields: PR diff (code) · Primary language (text) · Review focus areas (text)",
+      "matches": [
+        {
+          "id": "pr-diff-reviewer",
+          "name": "PR Diff Reviewer"
+        }
+      ]
+    },
+    "gitops-workflow-designer": {
+      "id": "gitops-workflow-designer",
+      "inputContext": "Distinct fields: Clusters and environments (text) · GitOps tool (select) · Application count (select)",
+      "matches": [
+        {
+          "id": "telehealth-workflow-designer",
+          "name": "Telehealth Workflow Designer"
+        }
+      ]
+    },
+    "grant-proposal-writer": {
+      "id": "grant-proposal-writer",
+      "inputContext": "Distinct fields: What is your project or research about? (textarea) · Your organization or institution (text) · Who are you applying to? (text) · +2 more",
+      "matches": [
+        {
+          "id": "book-proposal-writer",
+          "name": "Book Proposal Writer"
+        },
+        {
+          "id": "dao-proposal-writer",
+          "name": "DAO Proposal Writer"
+        },
+        {
+          "id": "grant-report-writer",
+          "name": "Grant Report Writer"
+        },
+        {
+          "id": "partnership-proposal-writer",
+          "name": "Partnership Proposal Writer"
+        }
+      ]
+    },
+    "grant-report-writer": {
+      "id": "grant-report-writer",
+      "inputContext": "Distinct fields: Project summary (textarea) · Outcomes and results (textarea) · Funder name (text)",
+      "matches": [
+        {
+          "id": "grant-proposal-writer",
+          "name": "Grant Proposal Writer"
+        }
+      ]
+    },
+    "graphql-query-optimizer": {
+      "id": "graphql-query-optimizer",
+      "inputContext": "Distinct fields: GraphQL query to optimize (textarea) · Relevant schema excerpt (textarea) · Main symptom (select)",
+      "matches": [
+        {
+          "id": "database-query-optimizer",
+          "name": "Database Query Optimizer"
+        },
+        {
+          "id": "sql-query-optimizer",
+          "name": "SQL Query Optimizer"
+        }
+      ]
+    },
+    "graphql-schema-generator": {
+      "id": "graphql-schema-generator",
+      "inputContext": "Distinct fields: Domain Description (textarea) · Entities to Include (textarea) · Include Mutations (select) · +1 more",
+      "matches": [
+        {
+          "id": "json-schema-generator",
+          "name": "JSON Schema Generator"
+        }
+      ]
+    },
+    "graphql-security-auditor": {
+      "id": "graphql-security-auditor",
+      "inputContext": "Distinct fields: GraphQL schema (code) · Resolver and auth model (textarea) · Gateway controls (textarea)",
+      "matches": [
+        {
+          "id": "openapi-security-auditor",
+          "name": "OpenAPI Security Auditor"
+        },
+        {
+          "id": "security-headers-auditor",
+          "name": "Security Headers Auditor"
+        }
+      ]
+    },
+    "grpc-service-designer": {
+      "id": "grpc-service-designer",
+      "inputContext": "Distinct fields: Service and methods (textarea) · Client platforms (text) · Streaming pattern (select)",
+      "matches": [
+        {
+          "id": "service-catalog-designer",
+          "name": "Service Catalog Designer"
+        }
+      ]
+    },
+    "incident-response-runbook-generator": {
+      "id": "incident-response-runbook-generator",
+      "inputContext": "Distinct fields: Service or system (text) · Incident types (text) · Response team structure (text)",
+      "matches": [
+        {
+          "id": "incident-runbook-generator",
+          "name": "Incident Runbook Generator"
+        }
+      ]
+    },
+    "incident-runbook-generator": {
+      "id": "incident-runbook-generator",
+      "inputContext": "Distinct fields: Service name (text) · Known failure scenarios (textarea) · Infrastructure & architecture details (textarea) · +2 more",
+      "matches": [
+        {
+          "id": "incident-response-runbook-generator",
+          "name": "Incident Response Runbook Generator"
+        }
+      ]
+    },
+    "influencer-brief-writer": {
+      "id": "influencer-brief-writer",
+      "inputContext": "Distinct fields: Product and audience (textarea) · Creator tier (select) · Budget (optional) (text)",
+      "matches": [
+        {
+          "id": "logo-brief-writer",
+          "name": "Logo Brief Writer"
+        },
+        {
+          "id": "technical-brief-writer",
+          "name": "Technical Brief Writer"
+        },
+        {
+          "id": "ugc-brief-writer",
+          "name": "UGC Brief Writer"
+        }
+      ]
+    },
+    "infographic-content-planner": {
+      "id": "infographic-content-planner",
+      "inputContext": "Distinct fields: Topic or data (textarea) · Target audience (text) · Output format (text)",
+      "matches": [
+        {
+          "id": "content-localization-planner",
+          "name": "Content Localization Planner"
+        },
+        {
+          "id": "content-repurposing-planner",
+          "name": "Content Repurposing Planner"
+        }
+      ]
+    },
+    "investor-update-writer": {
+      "id": "investor-update-writer",
+      "inputContext": "Distinct fields: Metrics (textarea) · Period notes (textarea) · Period (text)",
+      "matches": [
+        {
+          "id": "async-update-writer",
+          "name": "Async Update Writer"
+        }
+      ]
+    },
+    "invoice-description-generator": {
+      "id": "invoice-description-generator",
+      "inputContext": "Distinct fields: What work did you do? (textarea) · Client name (optional) (text) · Project name (optional) (text) · +1 more",
+      "matches": [
+        {
+          "id": "dataset-description-generator",
+          "name": "Dataset Description Generator"
+        }
+      ]
+    },
+    "job-description-writer": {
+      "id": "job-description-writer",
+      "inputContext": "Distinct fields: Role title (text) · Seniority (select) · Key responsibilities (textarea) · +2 more",
+      "matches": [
+        {
+          "id": "property-description-writer",
+          "name": "Property Description Writer"
+        }
+      ]
+    },
+    "json-schema-generator": {
+      "id": "json-schema-generator",
+      "inputContext": "Distinct fields: JSON sample or description (code) · JSON Schema draft (select) · Strictness (select)",
+      "matches": [
+        {
+          "id": "graphql-schema-generator",
+          "name": "GraphQL Schema Generator"
+        }
+      ]
+    },
+    "kubernetes-cost-optimizer": {
+      "id": "kubernetes-cost-optimizer",
+      "inputContext": "Distinct fields: Resource requests and limits (textarea) · Workload types (text) · Cloud provider (text)",
+      "matches": [
+        {
+          "id": "observability-cost-optimizer",
+          "name": "Observability Cost Optimizer"
+        }
+      ]
+    },
+    "kubernetes-upgrade-planner": {
+      "id": "kubernetes-upgrade-planner",
+      "inputContext": "Distinct fields: Cluster details (textarea) · Workloads (textarea) · Target version (text)",
+      "matches": [
+        {
+          "id": "dependency-upgrade-planner",
+          "name": "Dependency Upgrade Planner"
+        }
+      ]
+    },
+    "learning-budget-allocator": {
+      "id": "learning-budget-allocator",
+      "inputContext": "Distinct fields: Budget (text) · Organization (textarea) · Goals (textarea)",
+      "matches": [
+        {
+          "id": "marketing-budget-allocator",
+          "name": "Marketing Budget Allocator"
+        }
+      ]
+    },
+    "literature-review-outliner": {
+      "id": "literature-review-outliner",
+      "inputContext": "Distinct fields: Review topic and scope (textarea) · Sources collected (textarea) · Review length (select)",
+      "matches": [
+        {
+          "id": "literature-review-planner",
+          "name": "Literature Review Planner"
+        }
+      ]
+    },
+    "literature-review-planner": {
+      "id": "literature-review-planner",
+      "inputContext": "Distinct fields: Research topic (text) · Scope and boundaries (text)",
+      "matches": [
+        {
+          "id": "literature-review-outliner",
+          "name": "Literature Review Outliner"
+        }
+      ]
+    },
+    "llm-threat-modeler": {
+      "id": "llm-threat-modeler",
+      "inputContext": "Distinct fields: Feature architecture (textarea) · Data and permissions (textarea) · User population (text)",
+      "matches": [
+        {
+          "id": "privacy-threat-modeler",
+          "name": "Privacy Threat Modeler"
+        }
+      ]
+    },
+    "localization-design-reviewer": {
+      "id": "localization-design-reviewer",
+      "inputContext": "Distinct fields: Designs (textarea) · Target locales (textarea)",
+      "matches": [
+        {
+          "id": "dashboard-design-reviewer",
+          "name": "Dashboard Design Reviewer"
+        },
+        {
+          "id": "form-design-reviewer",
+          "name": "Form Design Reviewer"
+        },
+        {
+          "id": "mobile-design-reviewer",
+          "name": "Mobile Design Reviewer"
+        },
+        {
+          "id": "schema-design-reviewer",
+          "name": "Schema Design Reviewer"
+        },
+        {
+          "id": "survey-design-reviewer",
+          "name": "Survey Design Reviewer"
+        }
+      ]
+    },
+    "logo-brief-writer": {
+      "id": "logo-brief-writer",
+      "inputContext": "Distinct fields: Company and values (textarea) · Style direction (select) · Must-avoids (textarea)",
+      "matches": [
+        {
+          "id": "influencer-brief-writer",
+          "name": "Influencer Brief Writer"
+        },
+        {
+          "id": "technical-brief-writer",
+          "name": "Technical Brief Writer"
+        },
+        {
+          "id": "ugc-brief-writer",
+          "name": "UGC Brief Writer"
+        }
+      ]
+    },
+    "loyalty-program-designer": {
+      "id": "loyalty-program-designer",
+      "inputContext": "Distinct fields: Business and customers (textarea) · Program goals (textarea) · Constraints (text)",
+      "matches": [
+        {
+          "id": "beta-program-designer",
+          "name": "Beta Program Designer"
+        },
+        {
+          "id": "referral-program-designer",
+          "name": "Referral Program Designer"
+        }
+      ]
+    },
+    "marketing-budget-allocator": {
+      "id": "marketing-budget-allocator",
+      "inputContext": "Distinct fields: Channels and performance (textarea) · Budget and period (text) · Goals and constraints (textarea)",
+      "matches": [
+        {
+          "id": "learning-budget-allocator",
+          "name": "Learning Budget Allocator"
+        }
+      ]
+    },
+    "meta-analysis-planner": {
+      "id": "meta-analysis-planner",
+      "inputContext": "Distinct fields: Review question (textarea) · Evidence base (textarea) · Constraints (textarea)",
+      "matches": [
+        {
+          "id": "survival-analysis-planner",
+          "name": "Survival Analysis Planner"
+        }
+      ]
+    },
+    "mindmap-generator": {
+      "id": "mindmap-generator",
+      "inputContext": "Inputs: Paste your study material here (textarea) · Custom Instruction (Optional) (text)",
+      "matches": [
+        {
+          "id": "cheatsheet-generator",
+          "name": "Crammo: Cheatsheet Generator"
+        },
+        {
+          "id": "mnemonic-generator",
+          "name": "Crammo: Mnemonic Generator"
+        }
+      ]
+    },
+    "mnemonic-generator": {
+      "id": "mnemonic-generator",
+      "inputContext": "Inputs: Paste your study material here (textarea) · Custom Instruction (Optional) (text)",
+      "matches": [
+        {
+          "id": "cheatsheet-generator",
+          "name": "Crammo: Cheatsheet Generator"
+        },
+        {
+          "id": "mindmap-generator",
+          "name": "Crammo: Mindmap Generator"
+        }
+      ]
+    },
+    "mobile-design-reviewer": {
+      "id": "mobile-design-reviewer",
+      "inputContext": "Distinct fields: Screens and flows (textarea) · Platforms (text)",
+      "matches": [
+        {
+          "id": "dashboard-design-reviewer",
+          "name": "Dashboard Design Reviewer"
+        },
+        {
+          "id": "form-design-reviewer",
+          "name": "Form Design Reviewer"
+        },
+        {
+          "id": "localization-design-reviewer",
+          "name": "Localization Design Reviewer"
+        },
+        {
+          "id": "schema-design-reviewer",
+          "name": "Schema Design Reviewer"
+        },
+        {
+          "id": "survey-design-reviewer",
+          "name": "Survey Design Reviewer"
+        }
+      ]
+    },
+    "mock-data-generator": {
+      "id": "mock-data-generator",
+      "inputContext": "Distinct fields: Data Schema or Description (textarea) · Number of Records (select) · Output Format (select)",
+      "matches": [
+        {
+          "id": "data-dictionary-generator",
+          "name": "Data Dictionary Generator"
+        }
+      ]
+    },
+    "model-cost-estimator": {
+      "id": "model-cost-estimator",
+      "inputContext": "Distinct fields: Workload (textarea) · Pricing (textarea) · Planning horizon (text)",
+      "matches": [
+        {
+          "id": "closing-cost-estimator",
+          "name": "Closing Cost Estimator"
+        },
+        {
+          "id": "cloud-cost-estimator",
+          "name": "Cloud Cost Estimator"
+        }
+      ]
+    },
+    "morning-routine-designer": {
+      "id": "morning-routine-designer",
+      "inputContext": "Distinct fields: Morning constraints (textarea) · Wake time (text) · Primary goal (select)",
+      "matches": [
+        {
+          "id": "sleep-routine-designer",
+          "name": "Sleep Routine Designer"
+        }
+      ]
+    },
+    "moving-checklist-generator": {
+      "id": "moving-checklist-generator",
+      "inputContext": "Distinct fields: Move details (textarea) · Household (textarea)",
+      "matches": [
+        {
+          "id": "deployment-checklist-generator",
+          "name": "Deployment Checklist Generator"
+        },
+        {
+          "id": "onboarding-checklist-generator",
+          "name": "Onboarding Checklist Generator"
+        },
+        {
+          "id": "reproducibility-checklist-generator",
+          "name": "Reproducibility Checklist Generator"
+        }
+      ]
+    },
+    "nginx-config-generator": {
+      "id": "nginx-config-generator",
+      "inputContext": "Distinct fields: Backend services (textarea) · Domain name (text) · TLS setup (select)",
+      "matches": [
+        {
+          "id": "renovate-config-generator",
+          "name": "Renovate Config Generator"
+        },
+        {
+          "id": "ssh-config-generator",
+          "name": "SSH Config Generator"
+        },
+        {
+          "id": "terraform-config-generator",
+          "name": "Terraform Config Generator Agent"
+        }
+      ]
+    },
+    "observability-cost-optimizer": {
+      "id": "observability-cost-optimizer",
+      "inputContext": "Distinct fields: Telemetry pipeline (textarea) · Spend breakdown (textarea) · Critical signals (textarea)",
+      "matches": [
+        {
+          "id": "kubernetes-cost-optimizer",
+          "name": "Kubernetes Cost Optimizer"
+        }
+      ]
+    },
+    "onboarding-checklist-generator": {
+      "id": "onboarding-checklist-generator",
+      "inputContext": "Distinct fields: Role (text) · Department (text) · Seniority level (text)",
+      "matches": [
+        {
+          "id": "deployment-checklist-generator",
+          "name": "Deployment Checklist Generator"
+        },
+        {
+          "id": "moving-checklist-generator",
+          "name": "Moving Checklist Generator"
+        },
+        {
+          "id": "reproducibility-checklist-generator",
+          "name": "Reproducibility Checklist Generator"
+        }
+      ]
+    },
+    "onboarding-email-sequence-writer": {
+      "id": "onboarding-email-sequence-writer",
+      "inputContext": "Distinct fields: Product description (textarea) · Aha moment (text) · Tone (select)",
+      "matches": [
+        {
+          "id": "cold-email-writer",
+          "name": "Cold Email Writer"
+        },
+        {
+          "id": "email-reply-writer",
+          "name": "Email Reply Writer"
+        }
+      ]
+    },
+    "openapi-security-auditor": {
+      "id": "openapi-security-auditor",
+      "inputContext": "Distinct fields: OpenAPI spec (code) · Authentication methods used (text) · Deployment environment (text)",
+      "matches": [
+        {
+          "id": "graphql-security-auditor",
+          "name": "GraphQL Security Auditor"
+        },
+        {
+          "id": "security-headers-auditor",
+          "name": "Security Headers Auditor"
+        }
+      ]
+    },
+    "pandas-code-reviewer": {
+      "id": "pandas-code-reviewer",
+      "inputContext": "Distinct fields: Pandas code (textarea) · Data size (select) · Optimization goal (select)",
+      "matches": [
+        {
+          "id": "code-reviewer",
+          "name": "Code Reviewer"
+        },
+        {
+          "id": "solidity-code-reviewer",
+          "name": "Solidity Code Reviewer"
+        }
+      ]
+    },
+    "partnership-proposal-writer": {
+      "id": "partnership-proposal-writer",
+      "inputContext": "Distinct fields: Your company/product (textarea) · Potential partner (textarea) · Partnership model (text)",
+      "matches": [
+        {
+          "id": "book-proposal-writer",
+          "name": "Book Proposal Writer"
+        },
+        {
+          "id": "dao-proposal-writer",
+          "name": "DAO Proposal Writer"
+        },
+        {
+          "id": "grant-proposal-writer",
+          "name": "Grant Proposal Writer"
+        }
+      ]
+    },
+    "password-policy-writer": {
+      "id": "password-policy-writer",
+      "inputContext": "Distinct fields: Organization size (select) · Regulatory context (select) · SSO available? (select)",
+      "matches": [
+        {
+          "id": "ai-guardrail-policy-writer",
+          "name": "AI Agent Guardrail Policy Writer"
+        },
+        {
+          "id": "ai-usage-policy-writer",
+          "name": "AI Usage Policy Writer"
+        }
+      ]
+    },
+    "peer-review-assistant": {
+      "id": "peer-review-assistant",
+      "inputContext": "Distinct fields: Manuscript text (textarea) · Venue / bar (optional) (text)",
+      "matches": [
+        {
+          "id": "peer-review-response-writer",
+          "name": "Peer Review Response Writer"
+        }
+      ]
+    },
+    "peer-review-response-writer": {
+      "id": "peer-review-response-writer",
+      "inputContext": "Distinct fields: Peer reviews (textarea) · Revisions made (textarea) · Journal (text)",
+      "matches": [
+        {
+          "id": "peer-review-assistant",
+          "name": "Peer Review Assistant"
+        },
+        {
+          "id": "review-response-writer",
+          "name": "Review Response Writer"
+        }
+      ]
+    },
+    "performance-review-writer": {
+      "id": "performance-review-writer",
+      "inputContext": "Distinct fields: Employee name and role (text) · Review period (text) · Key achievements and contributions (textarea) · +2 more",
+      "matches": [
+        {
+          "id": "review-response-writer",
+          "name": "Review Response Writer"
+        }
+      ]
+    },
+    "pipeline-hygiene-auditor": {
+      "id": "pipeline-hygiene-auditor",
+      "inputContext": "Distinct fields: Pipeline data (textarea) · Sales process (textarea) · Period (text)",
+      "matches": [
+        {
+          "id": "data-pipeline-auditor",
+          "name": "Data Pipeline Auditor"
+        }
+      ]
+    },
+    "pitch-deck-outline-builder": {
+      "id": "pitch-deck-outline-builder",
+      "inputContext": "Distinct fields: Startup description (textarea) · Funding round (select) · Traction so far (textarea)",
+      "matches": [
+        {
+          "id": "board-deck-outline-builder",
+          "name": "Board Deck Outliner"
+        },
+        {
+          "id": "pitch-deck-reviewer",
+          "name": "Pitch Deck Reviewer"
+        }
+      ]
+    },
+    "pitch-deck-reviewer": {
+      "id": "pitch-deck-reviewer",
+      "inputContext": "Distinct fields: Deck content/outline (textarea) · Funding stage (text) · Investor audience (text)",
+      "matches": [
+        {
+          "id": "pitch-deck-outline-builder",
+          "name": "Pitch Deck Outliner"
+        }
+      ]
+    },
+    "pr-diff-reviewer": {
+      "id": "pr-diff-reviewer",
+      "inputContext": "Distinct fields: Git / PR Diff (code) · Review focus (multiselect)",
+      "matches": [
+        {
+          "id": "github-pr-reviewer",
+          "name": "GitHub PR Reviewer"
+        }
+      ]
+    },
+    "privacy-threat-modeler": {
+      "id": "privacy-threat-modeler",
+      "inputContext": "Distinct fields: Feature description (textarea) · Data types involved (textarea) · Regulation in scope (optional) (text)",
+      "matches": [
+        {
+          "id": "llm-threat-modeler",
+          "name": "LLM Threat Modeler"
+        }
+      ]
+    },
+    "product-changelog-writer": {
+      "id": "product-changelog-writer",
+      "inputContext": "Distinct fields: Git commits or release notes (textarea) · Target audience (text)",
+      "matches": [
+        {
+          "id": "api-changelog-writer",
+          "name": "API Changelog Writer"
+        },
+        {
+          "id": "product-manual-writer",
+          "name": "Product Manual Writer"
+        }
+      ]
+    },
+    "product-launch-checklist": {
+      "id": "product-launch-checklist",
+      "inputContext": "Distinct fields: Product and scope (textarea) · Launch type (select) · Target date (text)",
+      "matches": [
+        {
+          "id": "token-launch-checklist",
+          "name": "Token Launch Checklist"
+        }
+      ]
+    },
+    "product-manual-writer": {
+      "id": "product-manual-writer",
+      "inputContext": "Distinct fields: Product details (textarea) · Tasks and issues (textarea) · Audience (text)",
+      "matches": [
+        {
+          "id": "product-changelog-writer",
+          "name": "Product Changelog Writer"
+        }
+      ]
+    },
+    "project-architecture-planner": {
+      "id": "project-architecture-planner",
+      "inputContext": "Distinct fields: Project Scale (select) · Team Size (select) · Budget (select)",
+      "matches": [
+        {
+          "id": "ai-project-architecture-agent",
+          "name": "AI Project Architecture Agent"
+        },
+        {
+          "id": "brand-architecture-planner",
+          "name": "Brand Architecture Planner"
+        }
+      ]
+    },
+    "property-description-writer": {
+      "id": "property-description-writer",
+      "inputContext": "Distinct fields: Property Type (select) · Key Specs & Features (textarea) · Location (text) · +2 more",
+      "matches": [
+        {
+          "id": "job-description-writer",
+          "name": "Job Description Writer"
+        }
+      ]
+    },
+    "quota-plan-builder": {
+      "id": "quota-plan-builder",
+      "inputContext": "Distinct fields: Quota target (text) · Planning cycle (select) · Deal size and conversion context (text)",
+      "matches": [
+        {
+          "id": "account-plan-builder",
+          "name": "Account Plan Builder"
+        }
+      ]
+    },
+    "referral-program-designer": {
+      "id": "referral-program-designer",
+      "inputContext": "Distinct fields: Product and pricing context (textarea) · Incentive budget / margin (text) · Target audience (text)",
+      "matches": [
+        {
+          "id": "beta-program-designer",
+          "name": "Beta Program Designer"
+        },
+        {
+          "id": "loyalty-program-designer",
+          "name": "Loyalty Program Designer"
+        }
+      ]
+    },
+    "renewal-risk-assessor": {
+      "id": "renewal-risk-assessor",
+      "inputContext": "Distinct fields: Account and contract (textarea) · Risk signals (textarea) · Renewal date (text)",
+      "matches": [
+        {
+          "id": "contract-risk-assessor",
+          "name": "Contract Risk Assessor"
+        }
+      ]
+    },
+    "renovate-config-generator": {
+      "id": "renovate-config-generator",
+      "inputContext": "Distinct fields: Repository profile (textarea) · Constraints (textarea) · Current config (textarea)",
+      "matches": [
+        {
+          "id": "nginx-config-generator",
+          "name": "Nginx Config Generator"
+        },
+        {
+          "id": "ssh-config-generator",
+          "name": "SSH Config Generator"
+        },
+        {
+          "id": "terraform-config-generator",
+          "name": "Terraform Config Generator Agent"
+        }
+      ]
+    },
+    "rent-vs-buy-analyzer": {
+      "id": "rent-vs-buy-analyzer",
+      "inputContext": "Distinct fields: Market and plans (textarea) · Current rent (text) · Target home price (text)",
+      "matches": [
+        {
+          "id": "car-buy-vs-lease-analyzer",
+          "name": "Buy vs Lease Analyzer"
+        }
+      ]
+    },
+    "reproducibility-checklist-generator": {
+      "id": "reproducibility-checklist-generator",
+      "inputContext": "Distinct fields: Study (textarea) · Artifacts (textarea)",
+      "matches": [
+        {
+          "id": "deployment-checklist-generator",
+          "name": "Deployment Checklist Generator"
+        },
+        {
+          "id": "moving-checklist-generator",
+          "name": "Moving Checklist Generator"
+        },
+        {
+          "id": "onboarding-checklist-generator",
+          "name": "Onboarding Checklist Generator"
+        }
+      ]
+    },
+    "research-data-management-plan-writer": {
+      "id": "research-data-management-plan-writer",
+      "inputContext": "Distinct fields: Project (textarea) · Funder requirements (textarea) · Field (text)",
+      "matches": [
+        {
+          "id": "classroom-management-plan-writer",
+          "name": "Classroom Management Plan Writer"
+        },
+        {
+          "id": "ux-research-plan-writer",
+          "name": "UX Research Plan Writer"
+        }
+      ]
+    },
+    "resume-bullet-improver": {
+      "id": "resume-bullet-improver",
+      "inputContext": "Distinct fields: Resume Bullet Point (textarea)",
+      "matches": [
+        {
+          "id": "resume-bullet-rewriter",
+          "name": "Resume Bullet Point Rewriter"
+        }
+      ]
+    },
+    "resume-bullet-rewriter": {
+      "id": "resume-bullet-rewriter",
+      "inputContext": "Distinct fields: Your current resume bullet (textarea) · Target role or industry (optional) (text) · Tone (select) · +1 more",
+      "matches": [
+        {
+          "id": "resume-bullet-improver",
+          "name": "Resume Bullet Point Improver"
+        }
+      ]
+    },
+    "retry-budget-planner": {
+      "id": "retry-budget-planner",
+      "inputContext": "Distinct fields: Call paths (textarea) · Failure modes (textarea) · Latency target (text)",
+      "matches": [
+        {
+          "id": "wedding-budget-breakdown",
+          "name": "Wedding Budget Planner"
+        }
+      ]
+    },
+    "review-response-writer": {
+      "id": "review-response-writer",
+      "inputContext": "Distinct fields: Reviews to answer (textarea) · Business name and context (text) · Response tone (select)",
+      "matches": [
+        {
+          "id": "peer-review-response-writer",
+          "name": "Peer Review Response Writer"
+        },
+        {
+          "id": "performance-review-writer",
+          "name": "Performance Review Writer"
+        }
+      ]
+    },
+    "sales-discovery-call-generator": {
+      "id": "sales-discovery-call-generator",
+      "inputContext": "Distinct fields: Product / Service Name (text) · What does your product do? (textarea) · Target Industry (text) · +5 more",
+      "matches": [
+        {
+          "id": "cold-call-script-generator",
+          "name": "Cold Call Script Generator"
+        }
+      ]
+    },
+    "sales-handoff-writer": {
+      "id": "sales-handoff-writer",
+      "inputContext": "Distinct fields: Deal context (textarea) · Promises made during sales (textarea) · Known risks and open threads (textarea)",
+      "matches": [
+        {
+          "id": "sales-playbook-writer",
+          "name": "Sales Playbook Writer"
+        }
+      ]
+    },
+    "sales-playbook-writer": {
+      "id": "sales-playbook-writer",
+      "inputContext": "Distinct fields: Product and market (textarea) · Sales process (textarea) · Proof and constraints (text)",
+      "matches": [
+        {
+          "id": "expansion-playbook-writer",
+          "name": "Expansion Playbook Writer"
+        },
+        {
+          "id": "sales-handoff-writer",
+          "name": "Sales Handoff Writer"
+        }
+      ]
+    },
+    "sampling-plan-designer": {
+      "id": "sampling-plan-designer",
+      "inputContext": "Distinct fields: Population description (textarea) · Study goal (select) · Confidence level (select)",
+      "matches": [
+        {
+          "id": "commission-plan-designer",
+          "name": "Commission Plan Designer"
+        }
+      ]
+    },
+    "schema-design-reviewer": {
+      "id": "schema-design-reviewer",
+      "inputContext": "Distinct fields: Schema DDL (code) · Expected workload (text)",
+      "matches": [
+        {
+          "id": "dashboard-design-reviewer",
+          "name": "Dashboard Design Reviewer"
+        },
+        {
+          "id": "form-design-reviewer",
+          "name": "Form Design Reviewer"
+        },
+        {
+          "id": "localization-design-reviewer",
+          "name": "Localization Design Reviewer"
+        },
+        {
+          "id": "mobile-design-reviewer",
+          "name": "Mobile Design Reviewer"
+        },
+        {
+          "id": "survey-design-reviewer",
+          "name": "Survey Design Reviewer"
+        }
+      ]
+    },
+    "sdk-design-guide": {
+      "id": "sdk-design-guide",
+      "inputContext": "Distinct fields: API surface to wrap (textarea) · Target languages (text) · SDK audience (select)",
+      "matches": [
+        {
+          "id": "cli-design-guide",
+          "name": "CLI Design Guide"
+        }
+      ]
+    },
+    "security-headers-auditor": {
+      "id": "security-headers-auditor",
+      "inputContext": "Distinct fields: Response headers (textarea) · Framework / stack (optional) (text) · Remediation depth (select)",
+      "matches": [
+        {
+          "id": "graphql-security-auditor",
+          "name": "GraphQL Security Auditor"
+        },
+        {
+          "id": "openapi-security-auditor",
+          "name": "OpenAPI Security Auditor"
+        }
+      ]
+    },
+    "service-catalog-designer": {
+      "id": "service-catalog-designer",
+      "inputContext": "Distinct fields: Organization (textarea) · Services (textarea) · Tooling (textarea)",
+      "matches": [
+        {
+          "id": "grpc-service-designer",
+          "name": "gRPC Service Designer"
+        }
+      ]
+    },
+    "sleep-routine-designer": {
+      "id": "sleep-routine-designer",
+      "inputContext": "Distinct fields: Schedule (textarea) · Sleep habits (textarea) · Constraints (textarea)",
+      "matches": [
+        {
+          "id": "morning-routine-designer",
+          "name": "Morning Routine Designer"
+        }
+      ]
+    },
+    "smart-contract-auditor": {
+      "id": "smart-contract-auditor",
+      "inputContext": "Distinct fields: Smart Contract Language (select) · Audit Focus (select)",
+      "matches": [
+        {
+          "id": "contract-explainer",
+          "name": "Smart Contract Explainer"
+        }
+      ]
+    },
+    "smart-contract-incident-response-planner": {
+      "id": "smart-contract-incident-response-planner",
+      "inputContext": "Distinct fields: Protocol (textarea) · Incident scenario (textarea) · Stack (text)",
+      "matches": [
+        {
+          "id": "smart-contract-monitoring-planner",
+          "name": "Smart Contract Monitoring Planner"
+        }
+      ]
+    },
+    "smart-contract-monitoring-planner": {
+      "id": "smart-contract-monitoring-planner",
+      "inputContext": "Distinct fields: Contracts (textarea) · Risks (textarea) · Stack (textarea)",
+      "matches": [
+        {
+          "id": "smart-contract-incident-response-planner",
+          "name": "Smart Contract Incident Response Planner"
+        }
+      ]
+    },
+    "solidity-code-reviewer": {
+      "id": "solidity-code-reviewer",
+      "inputContext": "Distinct fields: Solidity Code (code) · Language (select) · Review focus (multiselect)",
+      "matches": [
+        {
+          "id": "code-reviewer",
+          "name": "Code Reviewer"
+        },
+        {
+          "id": "pandas-code-reviewer",
+          "name": "Pandas Code Reviewer"
+        }
+      ]
+    },
+    "sql-query-explainer": {
+      "id": "sql-query-explainer",
+      "inputContext": "Distinct fields: SQL Dialect (optional) (select)",
+      "matches": [
+        {
+          "id": "sql-query-generator",
+          "name": "SQL Query Generator"
+        },
+        {
+          "id": "sql-query-optimizer",
+          "name": "SQL Query Optimizer"
+        }
+      ]
+    },
+    "sql-query-generator": {
+      "id": "sql-query-generator",
+      "inputContext": "Distinct fields: What do you want to know? (textarea) · Database schema (textarea) · SQL dialect (select)",
+      "matches": [
+        {
+          "id": "sql-query-explainer",
+          "name": "SQL Query Explainer"
+        },
+        {
+          "id": "sql-query-optimizer",
+          "name": "SQL Query Optimizer"
+        }
+      ]
+    },
+    "sql-query-optimizer": {
+      "id": "sql-query-optimizer",
+      "inputContext": "Distinct fields: Database Schema (Optional) (textarea) · SQL Dialect (select)",
+      "matches": [
+        {
+          "id": "database-query-optimizer",
+          "name": "Database Query Optimizer"
+        },
+        {
+          "id": "graphql-query-optimizer",
+          "name": "GraphQL Query Optimizer"
+        },
+        {
+          "id": "sql-query-explainer",
+          "name": "SQL Query Explainer"
+        },
+        {
+          "id": "sql-query-generator",
+          "name": "SQL Query Generator"
+        }
+      ]
+    },
+    "ssh-config-generator": {
+      "id": "ssh-config-generator",
+      "inputContext": "Distinct fields: Hosts and access (textarea) · Keys and policies (textarea) · Client OS (text)",
+      "matches": [
+        {
+          "id": "nginx-config-generator",
+          "name": "Nginx Config Generator"
+        },
+        {
+          "id": "renovate-config-generator",
+          "name": "Renovate Config Generator"
+        },
+        {
+          "id": "terraform-config-generator",
+          "name": "Terraform Config Generator Agent"
+        }
+      ]
+    },
+    "startup-idea-brainstormer": {
+      "id": "startup-idea-brainstormer",
+      "inputContext": "Distinct fields: Your background & skills (textarea) · Interests & markets you care about (textarea) · Constraints (optional) (textarea)",
+      "matches": [
+        {
+          "id": "startup-idea-validator",
+          "name": "Startup Idea Validator"
+        }
+      ]
+    },
+    "startup-idea-validator": {
+      "id": "startup-idea-validator",
+      "inputContext": "Distinct fields: Describe your startup idea (textarea) · Target audience (text) · Monetization model (select)",
+      "matches": [
+        {
+          "id": "startup-idea-brainstormer",
+          "name": "Startup Idea Brainstormer"
+        }
+      ]
+    },
+    "stay-interview-kit": {
+      "id": "stay-interview-kit",
+      "inputContext": "Distinct fields: Team context (textarea) · Attrition signals (textarea) · Interview format (select)",
+      "matches": [
+        {
+          "id": "exit-interview-kit",
+          "name": "Exit Interview Kit"
+        }
+      ]
+    },
+    "supply-chain-risk-reviewer": {
+      "id": "supply-chain-risk-reviewer",
+      "inputContext": "Distinct fields: Ecosystem (select) · Dependency list (textarea) · Criticality (select)",
+      "matches": [
+        {
+          "id": "ai-model-supply-chain-reviewer",
+          "name": "AI Model Supply Chain Reviewer"
+        },
+        {
+          "id": "cross-chain-bridge-risk-reviewer",
+          "name": "Cross-Chain Bridge Risk Reviewer"
+        }
+      ]
+    },
+    "survey-design-reviewer": {
+      "id": "survey-design-reviewer",
+      "inputContext": "Distinct fields: Survey questions (textarea) · Survey goal (text) · Respondent audience (text)",
+      "matches": [
+        {
+          "id": "dashboard-design-reviewer",
+          "name": "Dashboard Design Reviewer"
+        },
+        {
+          "id": "form-design-reviewer",
+          "name": "Form Design Reviewer"
+        },
+        {
+          "id": "localization-design-reviewer",
+          "name": "Localization Design Reviewer"
+        },
+        {
+          "id": "mobile-design-reviewer",
+          "name": "Mobile Design Reviewer"
+        },
+        {
+          "id": "schema-design-reviewer",
+          "name": "Schema Design Reviewer"
+        }
+      ]
+    },
+    "survival-analysis-planner": {
+      "id": "survival-analysis-planner",
+      "inputContext": "Distinct fields: Cohort and outcome (textarea) · Analysis question (textarea) · Tools (text)",
+      "matches": [
+        {
+          "id": "meta-analysis-planner",
+          "name": "Meta-Analysis Planner"
+        }
+      ]
+    },
+    "synthetic-data-policy-writer": {
+      "id": "synthetic-data-policy-writer",
+      "inputContext": "Distinct fields: Use cases (textarea) · Source data (textarea)",
+      "matches": [
+        {
+          "id": "data-classification-policy-writer",
+          "name": "Data Classification Policy Writer"
+        },
+        {
+          "id": "data-loss-prevention-policy-writer",
+          "name": "Data Loss Prevention Policy Writer"
+        },
+        {
+          "id": "data-retention-policy-writer",
+          "name": "Data Retention Policy Writer"
+        }
+      ]
+    },
+    "technical-brief-writer": {
+      "id": "technical-brief-writer",
+      "inputContext": "Distinct fields: Topic (text) · Audience (text) · Context and constraints (textarea)",
+      "matches": [
+        {
+          "id": "influencer-brief-writer",
+          "name": "Influencer Brief Writer"
+        },
+        {
+          "id": "logo-brief-writer",
+          "name": "Logo Brief Writer"
+        },
+        {
+          "id": "ugc-brief-writer",
+          "name": "UGC Brief Writer"
+        }
+      ]
+    },
+    "telehealth-workflow-designer": {
+      "id": "telehealth-workflow-designer",
+      "inputContext": "Distinct fields: Service (textarea) · Constraints (textarea) · Current workflow (textarea)",
+      "matches": [
+        {
+          "id": "gitops-workflow-designer",
+          "name": "GitOps Workflow Designer"
+        }
+      ]
+    },
+    "terraform-config-generator": {
+      "id": "terraform-config-generator",
+      "inputContext": "Distinct fields: Infrastructure Description (textarea) · Cloud Provider (select) · Environment (select) · +1 more",
+      "matches": [
+        {
+          "id": "nginx-config-generator",
+          "name": "Nginx Config Generator"
+        },
+        {
+          "id": "renovate-config-generator",
+          "name": "Renovate Config Generator"
+        },
+        {
+          "id": "ssh-config-generator",
+          "name": "SSH Config Generator"
+        }
+      ]
+    },
+    "test-case-generator": {
+      "id": "test-case-generator",
+      "inputContext": "Distinct fields: Feature description (textarea) · Test type (multiselect) · Output format (select)",
+      "matches": [
+        {
+          "id": "unit-test-generator",
+          "name": "Unit Test Generator"
+        }
+      ]
+    },
+    "token-launch-checklist": {
+      "id": "token-launch-checklist",
+      "inputContext": "Distinct fields: Token design (textarea) · Chain and DEX (text) · Raise plan (select)",
+      "matches": [
+        {
+          "id": "product-launch-checklist",
+          "name": "Product Launch Checklist"
+        }
+      ]
+    },
+    "ugc-brief-writer": {
+      "id": "ugc-brief-writer",
+      "inputContext": "Distinct fields: Product (text) · Who creates it (text) · Deliverables (textarea)",
+      "matches": [
+        {
+          "id": "influencer-brief-writer",
+          "name": "Influencer Brief Writer"
+        },
+        {
+          "id": "logo-brief-writer",
+          "name": "Logo Brief Writer"
+        },
+        {
+          "id": "technical-brief-writer",
+          "name": "Technical Brief Writer"
+        }
+      ]
+    },
+    "unit-test-generator": {
+      "id": "unit-test-generator",
+      "inputContext": "Distinct fields: Code to test (code) · Test framework (select) · Additional context (optional) (textarea)",
+      "matches": [
+        {
+          "id": "test-case-generator",
+          "name": "Test Case Generator"
+        }
+      ]
+    },
+    "ux-research-plan-writer": {
+      "id": "ux-research-plan-writer",
+      "inputContext": "Distinct fields: Decision and context (textarea) · Users and constraints (textarea) · Preferred method (text)",
+      "matches": [
+        {
+          "id": "research-data-management-plan-writer",
+          "name": "Research Data Management Plan Writer"
+        }
+      ]
+    },
+    "voice-of-customer-program-designer": {
+      "id": "voice-of-customer-program-designer",
+      "inputContext": "Distinct fields: Product and customers (textarea) · Decisions to inform (textarea) · Constraints (text)",
+      "matches": [
+        {
+          "id": "customer-advocacy-program-designer",
+          "name": "Customer Advocacy Program Designer"
+        }
+      ]
+    },
+    "webinar-follow-up-writer": {
+      "id": "webinar-follow-up-writer",
+      "inputContext": "Distinct fields: Webinar details (textarea) · Segments and behavior (textarea) · Follow-up window (text)",
+      "matches": [
+        {
+          "id": "follow-up-email-sequence-writer",
+          "name": "Follow-Up Email Sequence Writer"
+        }
+      ]
+    },
+    "webinar-script-writer": {
+      "id": "webinar-script-writer",
+      "inputContext": "Distinct fields: Webinar topic (textarea) · Audience (text) · Webinar length (select)",
+      "matches": [
+        {
+          "id": "demo-script-writer",
+          "name": "Demo Script Writer"
+        },
+        {
+          "id": "youtube-script-writer",
+          "name": "YouTube Script Writer"
+        }
+      ]
+    },
+    "websocket-event-designer": {
+      "id": "websocket-event-designer",
+      "inputContext": "Distinct fields: Use case (textarea) · Connection scale (select) · Delivery guarantee (select)",
+      "matches": [
+        {
+          "id": "event-schema-designer",
+          "name": "Event Schema Designer"
+        }
+      ]
+    },
+    "wedding-budget-breakdown": {
+      "id": "wedding-budget-breakdown",
+      "inputContext": "Distinct fields: Total budget (text) · Guest count and setting (text) · Priorities and flex areas (textarea)",
+      "matches": [
+        {
+          "id": "retry-budget-planner",
+          "name": "Retry Budget Planner"
+        }
+      ]
+    },
+    "youtube-script-writer": {
+      "id": "youtube-script-writer",
+      "inputContext": "Distinct fields: Video Topic (textarea) · Tone (select) · Target Video Length (select)",
+      "matches": [
+        {
+          "id": "demo-script-writer",
+          "name": "Demo Script Writer"
+        },
+        {
+          "id": "webinar-script-writer",
+          "name": "Webinar Script Writer"
+        }
+      ]
+    }
+  }
+}

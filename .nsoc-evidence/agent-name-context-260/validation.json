@@ -1,0 +1,73 @@
+{
+  "sourceHead": "71b559d93f58577c8b876c348d3e2728f96e0c7f",
+  "actualParent": "cb3b823331b7cf4cade6dc4c63d66ae763a7d2b0",
+  "issue": "https://github.com/DivyashreeR008/Open-Agents/issues/260",
+  "feature": "Advisory lexical title context with original IDs and distinguishing input fields across catalogue, palette, sidebar and collections",
+  "verify": {
+    "result": "PASS",
+    "tests": 2771,
+    "testFiles": 965,
+    "includes": [
+      "all tests",
+      "agent index",
+      "production build",
+      "bundle budget"
+    ],
+    "transientFailure": "First final run failed an unchanged BattleModeArena.edge clipboard status assertion; isolated unchanged suite passed all 3, full coverage and one unchanged full verify rerun both passed. No tests suppressed or edited."
+  },
+  "coverage": {
+    "tests": 2771,
+    "statements": 98.15,
+    "branches": 95.66,
+    "functions": 99.06,
+    "lines": 98.77,
+    "unchangedFloors": true
+  },
+  "newRegressions": 9,
+  "otherChecks": {
+    "lint": {
+      "errors": 0,
+      "baselineWarnings": 90
+    },
+    "format": "PASS",
+    "securityRules": "PASS",
+    "builtAssetSmoke": "PASS",
+    "stagedGitleaks": "PASS",
+    "sharedAxe": "PASS"
+  },
+  "catalogueReport": {
+    "definitions": 872,
+    "lexicalPairs": 143,
+    "contexts": 176,
+    "semanticDuplicateClassification": false
+  },
+  "performance": {
+    "fixture": "5000 synthetic titles sharing one meaningful term",
+    "oldMilliseconds": 3816.47125,
+    "newMilliseconds": 21.719292,
+    "matches": 0,
+    "realCatalogueReportUnchanged": true,
+    "scope": "One pure index pass; not UI or production latency"
+  },
+  "browser": {
+    "functionalCases": 18,
+    "modes": [
+      "development",
+      "production"
+    ],
+    "viewportWidths": [
+      1280,
+      390
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "pageErrors": 0,
+    "providerRequests": 0,
+    "fullVisualAcceptance": false,
+    "limitation": "Unchanged main reset overrides spacing, causing desktop header/sidebar overlap. Actual #2660 merge, normal integration and new development/production/manual visual acceptance required before ready."
+  },
+  "deliveryState": "GENUINE_DRAFT; not ready, merged, awarded or counted toward ready quota",
+  "sourceUnchangedSinceValidation": true
+}
