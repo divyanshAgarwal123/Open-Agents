@@ -1,0 +1,9 @@
+
+> open-agents@1.0.0 check:security
+> node scripts/check-security-rules.mjs
+
+[security-check] Scanning project against contributor security rules...
+[security-check] Scanned 150 file(s).
+[security-check] Verified 1 deliberately recorded exception(s):
+  ✓ [no-third-party-data] src/lib/automationsService.js:319 (Allowed URL: https://api.resend.com/emails)
+✅ [security-check] All security rule checks passed!

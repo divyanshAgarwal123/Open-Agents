@@ -1,0 +1,42 @@
+{
+  "sourceHead": "058db11a47e6a388f383b74fc19a7dd1864be3ef",
+  "actualParent": "cb3b823331b7cf4cade6dc4c63d66ae763a7d2b0",
+  "sourceBlobs": {
+    "CHANGELOG.md": "5cad4984b8b01bde0683b45a1dd71ea74055e50b",
+    "SECURITY.md": "19abff5eaae23fc6c054a5e092066acb3bfb59a2",
+    "src/components/CommandPalette.jsx": "74d487d074f9fe4f78e4fc2b1639c614fbb7e153",
+    "src/components/CommandPalette.searchHistory.test.jsx": "985cdc13b1f7d658684900c9e3f08215c46af8ad",
+    "src/components/SearchHistory.jsx": "cbeeb63c12ae147eb0407c0550feeb03ea18b816",
+    "src/lib/useSearchHistory.js": "9c0b5369ca6cf81d7b220f532af47e7a05ff3997",
+    "src/lib/useSearchHistory.test.jsx": "220b130a4f213b14e730930c149945f4f972b4e4",
+    "src/pages/HomePage.jsx": "b925aea829f732478a1b779d0162718d8d476067",
+    "src/pages/HomePage.searchHistory.test.jsx": "824575670ff41fc24c12a1752b7a0fe8095bbf64"
+  },
+  "publication": "GENUINE_DRAFT_REVIEW_EVIDENCE",
+  "ready": false,
+  "dependency": "https://github.com/DivyashreeR008/Open-Agents/pull/2660",
+  "artifacts": {
+    "README.md": "632cad263bdd0e7c182b77ed8cedb9dae7ec36d71f2bb0a497cffc3ef8c6a0e5",
+    "oa258-browser/dev-1280-dark-palette.png": "2fa53907791486ac10950aed272c34252737eb95dd188f32bf6f42fb78efbb50",
+    "oa258-browser/dev-1280-light-palette.png": "5c0bbf2144af32e2f087aebde6cd2a6061520fff97b2c6b4aba282ad0797d44f",
+    "oa258-browser/dev-390-dark-palette.png": "7c6baec9f4d42929d60906dcad9a7d75bba66452388c94103e68199c02e59d69",
+    "oa258-browser/dev-390-light-palette.png": "96f55b40f9e078c97c1d23086d52a6d5d085093a9652cd5f8ec28d6fb20ad013",
+    "oa258-browser/dev-catalogue.png": "050921aeec99fa2032cc9bd63c87cf49e7eda8ca189e8494eb3b6392f7b9095c",
+    "oa258-browser/production-1280-dark-palette.png": "2fa53907791486ac10950aed272c34252737eb95dd188f32bf6f42fb78efbb50",
+    "oa258-browser/production-1280-light-palette.png": "892d07e9de2ced880bd7c5381af8a1c2cae1aae715f3b246287c5c0c47f28749",
+    "oa258-browser/production-390-dark-palette.png": "7c6baec9f4d42929d60906dcad9a7d75bba66452388c94103e68199c02e59d69",
+    "oa258-browser/production-390-light-palette.png": "96f55b40f9e078c97c1d23086d52a6d5d085093a9652cd5f8ec28d6fb20ad013",
+    "oa258-browser/production-catalogue.png": "3c79d8d2c0daa2dacc00f9f51bf43eff332b6251c2de4373f383f7340baeaaa9",
+    "oa258-browser/report.json": "4e0429231953e22758a7ee909e0c0752faf3bcee98033f27b982526a2566e046",
+    "oa258-browser.txt": "9a67c4ce697d7b856fb0bf7bedb836e472acf8db02a39afc017941aafec1d687",
+    "oa258-coverage.txt": "451e74ec1c55f9f9de4dee2c206bc4b7434533e79da47382bdbcf0c41e16db2d",
+    "oa258-format.txt": "d8a9d169932c5c1deeaa1e1e1c4e131780d1a5d05dab6513314678503835f7cd",
+    "oa258-gitleaks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "oa258-lint.txt": "898a8516964d0f13dab2fc72a973de69324d4441383bddaed01092d181c2dfc7",
+    "oa258-security.txt": "c7c0ef72b33debc624a92d5e7b699e813a79cfca37f9910ed704efa1a0d52b2b",
+    "oa258-smoke.txt": "20a2e33bbd21d038f68e1a8d01303d235f2f4392b398b1e4cf3d4a8cf6f64220",
+    "oa258-verify.txt": "3b3631dd29cadc6704273137e5dc51147b9d0f46a10e16ee7fe6184e1fbdecf0",
+    "validation.json": "bfe8010d9bb9481de442750711c3c7b56a6056e63a7825d40cdbf522bfa91905"
+  },
+  "transcriptNormalization": "Trailing whitespace and redundant final blank lines removed; raw originals retained locally."
+}

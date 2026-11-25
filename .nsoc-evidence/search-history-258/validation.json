@@ -1,0 +1,52 @@
+{
+  "sourceHead": "058db11a47e6a388f383b74fc19a7dd1864be3ef",
+  "actualParent": "cb3b823331b7cf4cade6dc4c63d66ae763a7d2b0",
+  "issue": "https://github.com/DivyashreeR008/Open-Agents/issues/258",
+  "feature": "Device-local explicit recent searches with scope/view replay across catalogue and global command palette",
+  "verify": {
+    "tests": 2773,
+    "testFiles": 966,
+    "result": "PASS",
+    "includes": "all tests,agent index,production build,bundle budget"
+  },
+  "coverage": {
+    "tests": 2773,
+    "statements": 98.16,
+    "branches": 95.67,
+    "functions": 99.06,
+    "lines": 98.78,
+    "unchangedFloors": true
+  },
+  "otherChecks": {
+    "lint": {
+      "errors": 0,
+      "baselineWarnings": 90
+    },
+    "format": "PASS",
+    "securityRules": "PASS",
+    "builtAssetSmoke": "PASS",
+    "stagedGitleaks": "PASS",
+    "sharedAxe": "PASS"
+  },
+  "browser": {
+    "functionalCases": 10,
+    "modes": [
+      "development",
+      "production"
+    ],
+    "viewportWidths": [
+      1280,
+      390
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "pageErrors": 0,
+    "providerRequests": 0,
+    "fullVisualAcceptance": false,
+    "limitation": "Main and feature both have unchanged CSS reset overriding intended spacing: desktop header/sidebar occlude catalogue, palette loses intended padding. Requires actual #2660 merge, normal integration and new dev/prod/manual visual acceptance before ready."
+  },
+  "deliveryState": "GENUINE_DRAFT; not ready, merged, awarded or counted toward ready quota",
+  "sourceUnchangedSinceValidation": true
+}
