@@ -1,0 +1,60 @@
+{
+  "sourceHead": "81e644594ea2f22de6bc761ea8adff49f500f033",
+  "actualParent": "cb3b823331b7cf4cade6dc4c63d66ae763a7d2b0",
+  "issue": "https://github.com/DivyashreeR008/Open-Agents/issues/297",
+  "verify": {
+    "result": "PASS",
+    "tests": 2771,
+    "testFiles": 965,
+    "workers": 2,
+    "includes": "full tests, agent index, production build, bundle budget"
+  },
+  "coverage": {
+    "result": "PASS",
+    "tests": 2771,
+    "statements": 98.16,
+    "branches": 95.66,
+    "functions": 99.05,
+    "lines": 98.77,
+    "workers": 2,
+    "unchangedThresholds": true
+  },
+  "newRegressions": 9,
+  "lint": {
+    "errors": 0,
+    "baselineWarnings": 89
+  },
+  "format": "PASS",
+  "securityRules": "PASS",
+  "builtAssetSmoke": "PASS",
+  "stagedSecrets": "PASS",
+  "sharedAxe": "PASS",
+  "browser": {
+    "functionalCases": 10,
+    "modes": [
+      "development",
+      "production"
+    ],
+    "widths": [
+      1280,
+      390
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "realTwoTabRefresh": true,
+    "pageErrors": 0,
+    "providerRequests": 0,
+    "mobilePopupViewportOverflowFixedBeforeFinalValidation": true,
+    "fullVisualAcceptance": false
+  },
+  "costContract": "Explicit finite nonnegative monetary components are reported; token-times-local-rate costs are estimated; absent/invalid/unpriced components are unknown. Legacy amounts remain unattributed and are not repriced. Reported zero is preserved. Numeric retained-run arithmetic is unchanged; omissions and estimates are visible.",
+  "limitations": [
+    "Main CSS reset still overrides padding: actual2660merge,normalintegration,newdev/prod/manualvisualacceptance required before ready.",
+    "Active2517cumulative-retention/popup PR overlaps; serial integration must reconcile its retention work without copying its code. Current subtotal explicitly covers retained newest200 runs;popupshows10."
+  ],
+  "developmentAttemptDisclosure": "Earlier concurrent/default-worker attempts were cancelled under resource pressure. A completed four-worker run timed out the unchanged AgentRunner.abort normal case and then hit its closed-stream follow-on; isolated unchanged suite passed8. Final two-worker verify and coverage both pass2771 with unchanged assertion/time limits. New mobile popup overflow was separately fixed and browser-retested before these final passes.",
+  "deliveryState": "GENUINE_DRAFT; not ready, merged, awarded or counted as ready quota",
+  "sourceUnchangedSinceValidation": true
+}

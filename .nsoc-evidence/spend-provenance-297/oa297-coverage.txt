@@ -1,0 +1,102 @@
+
+> open-agents@1.0.0 test:coverage
+> vitest run --coverage
+
+
+ RUN  v5.1.0 /Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/openagents297
+      Coverage enabled with v8
+
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+
+ Test Files  965 passed (965)
+      Tests  2771 passed (2771)
+   Start at  09:58:12
+   Duration  284.52s (environment 55%, tests 19%, import 12%, setup 9%, worker 4%, transform 2%)
+
+Environment  jsdom was created 965 times · 268.01s total, 55% of tracked time
+             create it once per worker with pool: 'vmThreads' (keeps per-file isolation) or isolate: false (shares it across files)
+             learn more: https://vitest.dev/guide/improving-performance#test-environments
+
+ % Coverage report from v8
+
+=============================== Coverage summary ===============================
+Statements   : 98.16% ( 7045/7177 )
+Branches     : 95.66% ( 5539/5790 )
+Functions    : 99.05% ( 1881/1899 )
+Lines        : 98.77% ( 6278/6356 )
+================================================================================
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   98.16 |    95.66 |   99.05 |   98.77 |
+ src/agents        |   93.93 |    91.66 |     100 |   92.85 |
+  registry.js      |   93.75 |    91.66 |     100 |   92.59 | 55-56
+ src/components    |   97.94 |    94.96 |   98.29 |   98.77 |
+  AgentCard.jsx    |   97.29 |    93.75 |     100 |    97.1 | 40,76
+  AgentRunner.jsx  |   95.56 |    94.27 |    92.3 |    97.3 | ...5-754,891,1112
+  ApiKeyBar.jsx    |    96.1 |    92.98 |     100 |   98.41 | 54
+  ...RunDrawer.jsx |     100 |    95.23 |     100 |     100 | 42,46
+  ...odeRunner.jsx |   99.21 |    95.23 |     100 |    99.1 | 32
+  ...ionPicker.jsx |     100 |    92.85 |     100 |     100 | 30
+  ...ndPalette.jsx |   99.07 |    96.66 |     100 |     100 | 317,335,426
+  ...irmDialog.jsx |     100 |    83.33 |     100 |     100 | 36
+  ...tionModal.jsx |     100 |    96.99 |     100 |     100 | 91,289,340,457
+  CustomSelect.jsx |   97.01 |    95.71 |   94.44 |     100 | 64-65,81
+  ...rBoundary.jsx |   94.73 |    81.48 |    90.9 |   94.28 | 49-50
+  ...ghtedText.jsx |     100 |       90 |     100 |     100 | 9
+  Navbar.jsx       |    92.3 |    84.61 |   96.66 |      96 | 85,89,97
+  ...tRenderer.jsx |     100 |    90.14 |     100 |     100 | ...48,170,206,310
+  ...storation.jsx |   98.27 |     91.3 |     100 |     100 | 50,70
+  ...lToBottom.jsx |     100 |    93.33 |     100 |     100 | 26,67,91
+  Sidebar.jsx      |   95.87 |    89.15 |     100 |   97.67 | 18-19
+  ...Breakdown.jsx |     100 |    95.23 |     100 |     100 | 39
+  SuiteWizard.jsx  |   98.93 |    93.05 |     100 |   98.79 | 163
+  VoiceInput.jsx   |     100 |    98.03 |     100 |     100 | 150
+  VoiceOutput.jsx  |   93.22 |    93.65 |     100 |   94.11 | 47-49
+ ...ts/collections |   97.22 |    98.43 |     100 |   96.92 |
+  ...entPicker.jsx |   94.44 |     97.5 |     100 |   93.93 | 64-67
+ ...ponents/layout |     100 |    96.29 |     100 |     100 |
+  LegalDoc.jsx     |     100 |       50 |     100 |     100 | 19
+ ...recommendation |     100 |    99.13 |     100 |     100 |
+  ...esultCard.jsx |     100 |    95.45 |     100 |     100 | 65
+ src/hooks         |   99.11 |     97.6 |     100 |   99.49 |
+  ...ialogFocus.js |   98.07 |     92.3 |     100 |     100 | 19,76
+  ...dShortcuts.js |      96 |    97.14 |     100 |   95.23 | 42
+ src/lib           |   97.67 |    95.34 |    98.9 |   98.25 |
+  ...onKeyStore.js |   96.15 |    92.85 |   88.23 |     100 | 35
+  ...onsService.js |   97.81 |    95.26 |   98.24 |   98.22 | ...71-674,783,919
+  exportBatch.js   |     100 |    97.22 |     100 |     100 | 27
+  globalKeys.js    |   99.03 |    97.91 |     100 |     100 | 53
+  llmAdapter.js    |    96.8 |    94.36 |     100 |   97.75 | ...51,193,350-351
+  marketplace.js   |   85.71 |     86.9 |    93.1 |   87.21 | ...62,523-525,530
+  secretPolicy.js  |   96.15 |    93.75 |     100 |     100 | 15
+  ...Provenance.js |     100 |    94.59 |     100 |     100 | 18,50
+  theme.js         |   95.83 |      100 |     100 |   95.23 | 8
+  ...entRatings.js |   97.33 |    95.45 |     100 |     100 | 35,46
+  useAnalytics.js  |   99.47 |    95.29 |     100 |     100 | 211,304-318
+  ...ollections.js |     100 |    97.38 |     100 |     100 | 83,207,231,508
+  useHistory.js    |     100 |    97.14 |     100 |     100 | 168
+  usePwaUpdate.js  |     100 |    96.15 |     100 |     100 | 84
+  ...kenCounter.js |      96 |       92 |     100 |   95.83 | 17-18
+ src/pages         |   98.72 |    95.82 |   99.62 |   99.35 |
+  ...yticsPage.jsx |     100 |    96.96 |     100 |     100 | 490,606,739
+  ...etailPage.jsx |     100 |       99 |     100 |     100 | 467
+  ...tionsPage.jsx |     100 |    97.64 |     100 |     100 | 105,265
+  ...ModeArena.jsx |   99.14 |    92.17 |     100 |     100 | ...19-527,563-571
+  ...ModeSetup.jsx |    98.8 |    97.32 |     100 |     100 | 114,281,291
+  ...etailPage.jsx |      98 |    94.44 |     100 |     100 | 117,125
+  ...tionsPage.jsx |   97.46 |       90 |      96 |   98.59 | 245
+  HomePage.jsx     |   98.45 |    93.58 |     100 |   99.41 | 47
+  ...placePage.jsx |   98.83 |    94.02 |     100 |   99.36 | 175
+  ...dulerPage.jsx |    98.3 |    98.61 |     100 |     100 | 64
+  SettingsPage.jsx |   95.86 |    92.07 |     100 |   95.53 | 198,473-479
+  ...owBuilder.jsx |   96.51 |    95.89 |     100 |     100 | 91,105,122
+  ...lowDetail.jsx |     100 |     97.5 |     100 |     100 | 134
+  ...owLibrary.jsx |     100 |    97.91 |     100 |     100 | 54
+  ...lowRunner.jsx |   98.17 |    97.43 |   96.42 |   98.66 | 60,75
+-------------------|---------|----------|---------|---------|-------------------

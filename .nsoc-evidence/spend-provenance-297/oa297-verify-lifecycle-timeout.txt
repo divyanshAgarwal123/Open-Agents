@@ -1,0 +1,63 @@
+
+> open-agents@1.0.0 verify
+> npm test && npm run check:agents && npm run build && npm run check:bundle-size
+
+
+> open-agents@1.0.0 test
+> vitest run
+
+
+ RUN  v5.1.0 /Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/openagents297
+
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+ ❯ src/components/AgentRunner.abort.test.jsx (8 tests | 2 failed) 15719ms
+   ❯ AgentRunner: stream cancellation lifecycle (8)
+     × a normal run still completes, shows output and records history once (guard) 6286ms
+     × shows a warning when history storage rejects the completed run 1276ms
+Not implemented: Window's scrollTo() method
+Not implemented: Window's scrollTo() method
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/components/AgentRunner.abort.test.jsx > AgentRunner: stream cancellation lifecycle > a normal run still completes, shows output and records history once (guard)
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/components/AgentRunner.abort.test.jsx:116:3
+    114|
+    115| describe('AgentRunner: stream cancellation lifecycle', () => {
+    116|   it('a normal run still completes, shows output and records history o…
+       |   ^
+    117|     await startRun()
+    118|     await act(async () => {
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  src/components/AgentRunner.abort.test.jsx > AgentRunner: stream cancellation lifecycle > shows a warning when history storage rejects the completed run
+TypeError: Invalid state: Controller is already closed
+ ❯ push src/components/AgentRunner.abort.test.jsx:67:26
+     65|
+     66| const push = (i, text) =>
+     67|   requests[i].controller.enqueue(
+       |                          ^
+     68|     enc.encode(`data: ${JSON.stringify({ choices: [{ delta: { content:…
+     69|   )
+ ❯ src/components/AgentRunner.abort.test.jsx:139:7
+ ❯ node_modules/@testing-library/react/dist/act-compat.js:47:24
+ ❯ process.env.NODE_ENV.exports.act node_modules/react/cjs/react.development.js:890:22
+ ❯ Proxy.<anonymous> node_modules/@testing-library/react/dist/act-compat.js:46:25
+ ❯ src/components/AgentRunner.abort.test.jsx:138:11
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed | 964 passed (965)
+      Tests  2 failed | 2769 passed (2771)
+   Start at  09:43:54
+   Duration  290.23s (environment 57%, tests 19%, import 10%, setup 7%, transform 6%)
+
+Environment  jsdom was created 965 times · 599.89s total, 57% of tracked time
+             create it once per worker with pool: 'vmThreads' (keeps per-file isolation) or isolate: false (shares it across files)
+             learn more: https://vitest.dev/guide/improving-performance#test-environments

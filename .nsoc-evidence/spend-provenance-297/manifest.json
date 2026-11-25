@@ -1,0 +1,46 @@
+{
+  "sourceHead": "81e644594ea2f22de6bc761ea8adff49f500f033",
+  "actualParent": "cb3b823331b7cf4cade6dc4c63d66ae763a7d2b0",
+  "sourceBlobs": {
+    "CHANGELOG.md": "fc47ad420ce0c3e830ecdd5b16973df87525d1a6",
+    "README.md": "fc5559abaca97def0499d4b2656b9d08f9a28baf",
+    "src/components/Navbar.jsx": "ec6f0ed00f9abe1193558cfbc65b8f8d234cf411",
+    "src/components/Navbar.spendProvenance.test.jsx": "4df8b7a5060285836a8f681341d2862aae193dd5",
+    "src/components/SpendBreakdown.jsx": "66b8acd92e8901b42ae66190cb71a2e45b306bac",
+    "src/lib/spendProvenance.js": "5e6b4abd368e3e0dc89dd3c410c2fa23eb38d7ea",
+    "src/lib/useSessionSpend.js": "15d8967b06f24ff02c2dea46ea819e5287714bfd",
+    "src/lib/useSessionSpend.provenance.test.jsx": "c8b1c8b63ee0fbce63f97d7c2f74e0205f5d56dd"
+  },
+  "ready": false,
+  "dependencies": [
+    "https://github.com/DivyashreeR008/Open-Agents/pull/2660",
+    "https://github.com/DivyashreeR008/Open-Agents/pull/2517"
+  ],
+  "artifacts": {
+    "README.md": "e2617ca2416ffa61aa68e3309ec57e81d758dcf358c70b68040826c2ffec86bf",
+    "oa297-browser/dev-1280-dark-mixed.png": "d985eeb0653a7c2be2dec70ee832aec825677146baf2802761d8c9dcc8dc1555",
+    "oa297-browser/dev-1280-light-mixed.png": "052210d26b5255cc7cdcbe6d3fcd3c6698085f23acbc2148bbbe0760aca59491",
+    "oa297-browser/dev-390-dark-mixed.png": "ad8e8930bba626f63c0ad4f29721d31d248f0c4398d5f9ab98a72c5c32d55502",
+    "oa297-browser/dev-390-light-mixed.png": "f6194bd7f34bc90b1e1be79afe73e090e088e3c95ed210ff3b7d662f05054afb",
+    "oa297-browser/dev-unknown-only.png": "85b8a754e385ad6f304c2e7f284013adf01ac76c4f9b9f1f6c6c22bcfebf5a02",
+    "oa297-browser/production-1280-dark-mixed.png": "03f5c71348bed361ff66b19704139f35c9cf61f5bb7f14cce3d01ccbaa9298c7",
+    "oa297-browser/production-1280-light-mixed.png": "1740af9145b903ff6703780a547c29c6814d8195bcbe6b617c09eea825a25d5a",
+    "oa297-browser/production-390-dark-mixed.png": "61f8b155be50fe5ddd49361c0aa202f48a9ccd47597071bf458a0cda6ad902b2",
+    "oa297-browser/production-390-light-mixed.png": "c7a876d747c6da7c69c4ee4f421547661ed431b68c88fa5a5644300ba441ba44",
+    "oa297-browser/production-unknown-only.png": "2e0f10569a3bacc7a442669bad7e35933cca8e7cc3d71856df4c8e9e33139f8a",
+    "oa297-browser/report.json": "24708385e67647e747b61cb4c9f1561f0cc9cf683936426f8fe1dec37f0d2062",
+    "oa297-browser.txt": "1857dec0a020fdab5f2d0b6ac0cb47ac80a9d7cd5b52bc69feaf3bc27ceac63b",
+    "oa297-coverage.txt": "32f97fbb56ae14a1300b3f01f7eb579e1c28e2a3f244af72999636307e6874fe",
+    "oa297-format.txt": "d8a9d169932c5c1deeaa1e1e1c4e131780d1a5d05dab6513314678503835f7cd",
+    "oa297-gitleaks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "oa297-gitleaks.txt": "11338aa0b50907341fa0a29bdd19e81d2578cd9d769d6ac1a9625a2b0de7db6c",
+    "oa297-lint.txt": "6977395f60a26a98628fc5dfb41e88b8039ed2343b11e1c0a091b66839b2dfef",
+    "oa297-run-lifecycle-focused.txt": "67bb03242dcf5086ef84b8b6f2f10bcde6e85159b46d25ef59e695dfaf618d0c",
+    "oa297-security.txt": "c7c0ef72b33debc624a92d5e7b699e813a79cfca37f9910ed704efa1a0d52b2b",
+    "oa297-smoke.txt": "04d5d44d9d3944f9940d1cb2944edad4484f66cb0b3e1d2cd42702ecda65f5d0",
+    "oa297-verify-lifecycle-timeout.txt": "3eb33dce61b450f569f8b5f0ce4f59760ad90d24abf9a41ee1ca95ea22b058bb",
+    "oa297-verify.txt": "4237a099383de025714a1ae7078a92d7954f140e1a9e84cd060907ae602ed258",
+    "validation.json": "abb2b258da8392543392545a2729a2f23dc0ec122c2f2d39bb28ea526fc34762"
+  },
+  "transcriptNormalization": "Trailing whitespace only; raw originals retained locally."
+}

@@ -1,0 +1,3 @@
+Review evidence for assigned Open-Agents #297, source 81e644594ea2f22de6bc761ea8adff49f500f033, parent cb3b823331b7cf4cade6dc4c63d66ae763a7d2b0.
+
+Final verification and full coverage pass2771 tests, with two workers and unchanged thresholds. Ten actual Chrome functional cases pass after fixing mobile popup overflow. Full visual acceptance remains blocked by the unchanged main CSS reset and actual2660 dependency. Active2517 overlapping retention work also needs serial integration; this implementation preserves current main retained-run arithmetic. No provider calls, receipts invented from token counts, storage-policy replacement, or points claim.
