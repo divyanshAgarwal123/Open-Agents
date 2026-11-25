@@ -1,0 +1,135 @@
+{
+  "cases": [
+    {
+      "mode": "dev",
+      "width": 1280,
+      "theme": "light",
+      "approximateLocalBytesSeparatedFromOriginQuota": true,
+      "planningWarning": true,
+      "fixedFeatureLabels": true,
+      "fixtureValuesUnchanged": true,
+      "noRawNamesOrValues": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "dev",
+      "width": 1280,
+      "theme": "dark",
+      "approximateLocalBytesSeparatedFromOriginQuota": true,
+      "planningWarning": true,
+      "fixedFeatureLabels": true,
+      "fixtureValuesUnchanged": true,
+      "noRawNamesOrValues": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "dev",
+      "width": 390,
+      "theme": "light",
+      "approximateLocalBytesSeparatedFromOriginQuota": true,
+      "planningWarning": true,
+      "fixedFeatureLabels": true,
+      "fixtureValuesUnchanged": true,
+      "noRawNamesOrValues": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "dev",
+      "width": 390,
+      "theme": "dark",
+      "approximateLocalBytesSeparatedFromOriginQuota": true,
+      "planningWarning": true,
+      "fixedFeatureLabels": true,
+      "fixtureValuesUnchanged": true,
+      "noRawNamesOrValues": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "dev",
+      "realTwoTabRefresh": true,
+      "planningWarningClearsAfterCleanup": true,
+      "actualOriginAPI": {
+        "usage": 0,
+        "quota": 10737418240
+      }
+    },
+    {
+      "mode": "dev",
+      "controlledOriginAPI": "unsupported",
+      "unavailableNotZeroQuota": true
+    },
+    {
+      "mode": "dev",
+      "controlledOriginAPI": "rejected",
+      "unavailableNotZeroQuota": true
+    },
+    {
+      "mode": "production",
+      "width": 1280,
+      "theme": "light",
+      "approximateLocalBytesSeparatedFromOriginQuota": true,
+      "planningWarning": true,
+      "fixedFeatureLabels": true,
+      "fixtureValuesUnchanged": true,
+      "noRawNamesOrValues": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "production",
+      "width": 1280,
+      "theme": "dark",
+      "approximateLocalBytesSeparatedFromOriginQuota": true,
+      "planningWarning": true,
+      "fixedFeatureLabels": true,
+      "fixtureValuesUnchanged": true,
+      "noRawNamesOrValues": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "production",
+      "width": 390,
+      "theme": "light",
+      "approximateLocalBytesSeparatedFromOriginQuota": true,
+      "planningWarning": true,
+      "fixedFeatureLabels": true,
+      "fixtureValuesUnchanged": true,
+      "noRawNamesOrValues": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "production",
+      "width": 390,
+      "theme": "dark",
+      "approximateLocalBytesSeparatedFromOriginQuota": true,
+      "planningWarning": true,
+      "fixedFeatureLabels": true,
+      "fixtureValuesUnchanged": true,
+      "noRawNamesOrValues": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "mode": "production",
+      "realTwoTabRefresh": true,
+      "planningWarningClearsAfterCleanup": true,
+      "actualOriginAPI": {
+        "usage": 0,
+        "quota": 10737418240
+      }
+    },
+    {
+      "mode": "production",
+      "controlledOriginAPI": "unsupported",
+      "unavailableNotZeroQuota": true
+    },
+    {
+      "mode": "production",
+      "controlledOriginAPI": "rejected",
+      "unavailableNotZeroQuota": true
+    }
+  ],
+  "errors": [],
+  "providerRequests": [],
+  "fullVisualAcceptance": false,
+  "blocker": "Current main CSS reset overrides Settings spacing and desktop layout; actual2660merge, normalintegration and newdev/prod/manualvisualacceptance required before ready.",
+  "functionalPass": true
+}

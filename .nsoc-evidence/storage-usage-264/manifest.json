@@ -1,0 +1,38 @@
+{
+  "sourceHead": "899890f419ae3edffaafbccb741f6c7bef3f050f",
+  "actualParent": "cb3b823331b7cf4cade6dc4c63d66ae763a7d2b0",
+  "sourceBlobs": {
+    "CHANGELOG.md": "a0b8521f8cbc0c815ee1185fe66e940fd7a1f8f8",
+    "README.md": "afb145693c7cc5550819ef6ed8cc666ca4c0d673",
+    "src/components/StorageUsage.jsx": "f7628e9edd5d8a3558e2c553c2d7d2c58d5fbb91",
+    "src/components/StorageUsage.test.jsx": "e8ad6854b312f8d19f4e61f0809d5064cc744c55",
+    "src/lib/storageUsage.js": "ad994622eaf11e6da9b612effefd23af583c67e8",
+    "src/lib/storageUsage.test.js": "f7797d5f7e9e91e6e218846a9489773ae2c20055",
+    "src/pages/SettingsPage.jsx": "6b7a827448090712225ad41665ba2af8070d8347"
+  },
+  "ready": false,
+  "dependency": "https://github.com/DivyashreeR008/Open-Agents/pull/2660",
+  "artifacts": {
+    "README.md": "64919c4ad2ef70746b02607664e36b416111175b228b10831ef4eeb20c2fee94",
+    "oa264-browser/dev-1280-dark-usage.png": "c377335d55043004e487ef883824515cd5c248620297d36a293d4058782481e8",
+    "oa264-browser/dev-1280-light-usage.png": "12e3cd241a33d461186c21838cb9c9f7e84afd100b3ab33fbeecc36ea8591c70",
+    "oa264-browser/dev-390-dark-usage.png": "7a26b322caa6626cb1d000d6c6e21a1a26cba5290c86a277b6d26f1d084f9a0f",
+    "oa264-browser/dev-390-light-usage.png": "48419c01e66f4799f23afdead0a2c2d752f4b5f880d0be4f51da2855a51b6b90",
+    "oa264-browser/production-1280-dark-usage.png": "79e3f0f507e808c86bea41edbf47766fb80a4372a6d194b5f5ed808e5f02fea8",
+    "oa264-browser/production-1280-light-usage.png": "81e832c861bf8365791f83f0765d4294b3ae402db639a88ac022b05d273d5390",
+    "oa264-browser/production-390-dark-usage.png": "33daa90dd89b3427197ea9d47e2b148e28b9a945ad2f6fb2a0b68eabe6ef3f5e",
+    "oa264-browser/production-390-light-usage.png": "52d12b168b9fbfb332c1f1f59fe5dfbec870b657a7780d6b9493b52d0d1ed459",
+    "oa264-browser/report.json": "2b39ade5061f20ca627a2a47f89129669856f29bad6b1a787bf7eb09913547ba",
+    "oa264-browser.txt": "cb62d90b4f82e3a3499bd4cf36ab90520367683179156cf79854a09df987bdd3",
+    "oa264-coverage.txt": "6f13222ba2a2da1fa9d7a276ebcef0ff0f412d5bcaea2382b152c4ab994374fe",
+    "oa264-format.txt": "d8a9d169932c5c1deeaa1e1e1c4e131780d1a5d05dab6513314678503835f7cd",
+    "oa264-gitleaks.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "oa264-gitleaks.txt": "1a88205ca3926c436237af15086157168273c497ba7be2b746b6f8d8d2355759",
+    "oa264-lint.txt": "c555fc67ff8384363f397160296e4bcb9402b3ac2dec7fade2844f075d2b0f6e",
+    "oa264-security.txt": "c7c0ef72b33debc624a92d5e7b699e813a79cfca37f9910ed704efa1a0d52b2b",
+    "oa264-smoke.txt": "07fc84314e44a88d4cbd45bb8932f8d66c908a44859204d22d89c1d4a006f66e",
+    "oa264-verify.txt": "97fb9f7d99394e1a15ed6a9b56b17b95d409e29f05dab4b4cb4f391d9f75786a",
+    "validation.json": "297f6e7cfaec29c417fcce072c906627715a2db9fa805eff5074cd336eca4e9c"
+  },
+  "transcriptNormalization": "Trailing whitespace only; raw originals retained locally."
+}

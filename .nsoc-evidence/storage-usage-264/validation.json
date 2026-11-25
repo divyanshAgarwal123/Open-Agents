@@ -1,0 +1,65 @@
+{
+  "sourceHead": "899890f419ae3edffaafbccb741f6c7bef3f050f",
+  "actualParent": "cb3b823331b7cf4cade6dc4c63d66ae763a7d2b0",
+  "issue": "https://github.com/DivyashreeR008/Open-Agents/issues/264",
+  "feature": "Read-only per-feature approximate UTF-16 localStorage footprint, largest consumers, explicit5MiBplanning(notquota)warning and separate browser-origin estimate",
+  "verify": {
+    "result": "PASS",
+    "tests": 2772,
+    "files": 965,
+    "workers": 2,
+    "includes": "alltests,agentindex,productionbuild,bundlebudget"
+  },
+  "coverage": {
+    "result": "PASS",
+    "tests": 2772,
+    "statements": 98.15,
+    "branches": 95.7,
+    "functions": 99.05,
+    "lines": 98.76,
+    "workers": 2,
+    "unchangedThresholds": true
+  },
+  "newRegressions": 10,
+  "lint": {
+    "errors": 0,
+    "baselineWarnings": 90
+  },
+  "format": "PASS",
+  "securityRules": "PASS",
+  "builtAssetSmoke": "PASS",
+  "stagedSecrets": "PASS",
+  "sharedAxe": "PASS",
+  "privacy": "Only counts and fixed feature labels leave the measuring helper; saved raw names/values are not returned, logged, transmitted, parsed, changed or deleted.",
+  "scale": "2*(key.length+value.length) is an approximate UTF-16 footprint;5MiB is ONLYanapplicationplanningreference/warnat80percent,NOTmeasuredbrowserLSquota. navigator.storage.estimate is separate origin-scoped browser estimate and not LSremainingcapacityorwriteguarantee.",
+  "browser": {
+    "functionalCases": 14,
+    "actualMatrixCases": 8,
+    "realTwoTabCleanupRefreshCases": 2,
+    "explicitControlledUnsupportedRejectedAPICases": 4,
+    "modes": [
+      "development",
+      "production"
+    ],
+    "widths": [
+      1280,
+      390
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "pageErrors": 0,
+    "providerRequests": 0,
+    "fixtureValuesUnchanged": true,
+    "fullVisualAcceptance": false,
+    "blocker": "SameunchangedmainCSSresetoccludesdesktopSettingsandcompressesspacing;actual2660merge,normalintegration,newdev/prod/manualvisualacceptance required before ready."
+  },
+  "browserHarnessDisclosure": "First assertion sampled the refresh between states; harness now atomically returns settled origin-result text. Application source was not changed for this harness correction; original failed attempt retained locally.",
+  "dependencies": {
+    "lockSHA256": "75dc29cd36faa735f8e913f36aaf1e9a08af6743008351a28242d8a845dad1e5",
+    "source": "Identicallockfreshnpmciinopenagents297 reused viaignorednode_modulessymlink; no package/dependency/configchanges here."
+  },
+  "deliveryState": "GENUINE_DRAFT;notready,merged,awarded,orcountedasreadyquota",
+  "sourceUnchangedSinceValidation": true
+}
